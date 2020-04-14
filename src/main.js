@@ -1,7 +1,9 @@
 import Vue from 'vue'
 import App from './App.vue'
 import * as THREE from '../three/three';
-//import controls from 'three/three/examples/js/controls/OrbitControls.js'
+
+
+
 
 Vue.config.productionTip = false;
 
@@ -27,7 +29,8 @@ renderer.setSize(window.innerWidth, window.innerHeight);
 document.getElementById('pyramide').appendChild(renderer.domElement);
 //document.body.appendChild(renderer.domElement);
 
-//controls = new THREE.OrbitControls(camera, renderer.domElement);
+var control = new THREE.OrbitControls(camera, renderer.domElement);
+ control();
 
 
 window.addEventListener('resize', function () {
@@ -41,7 +44,15 @@ window.addEventListener('resize', function () {
 
 });
 
-camera.position.z = 4;
+var geometry = new THREE.ConeBufferGeometry(1, 1, 4, 4,true );
+
+var material = new THREE.MeshBasicMaterial({color: 0xFFFFFF, wireframe: true});
+
+var cone = new THREE.Mesh(geometry, material);
+scene.add(cone);
+
+
+camera.position.z = 3;
 
 
 var keyLight = new THREE.DirectionalLight(0xffffff, 1.0);
@@ -62,9 +73,9 @@ scene.add(backLight);
 
 
 
-var objLoader = new THREE.OBJLoader();
+/*var objLoader = new THREE.OBJLoader();
 
-objLoader.load('louvre.obj', function (object){
+objLoader.load('../public/louvre.obj', function (object){
   scene.add(object);
 
   function animate(){
@@ -74,7 +85,16 @@ objLoader.load('louvre.obj', function (object){
   }
 
   animate();
-});
+});*/
+
+function animate() {
+  requestAnimationFrame(animate);
+
+  cone.rotation.y += 0.005;
+
+}
+
+animate();
 
 
 
@@ -88,6 +108,5 @@ var GameLoop = function () {
 };
 
 GameLoop();
-
 
 

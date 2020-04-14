@@ -8,14 +8,11 @@ html {
     background-color: #2E2B30;
 }
 
-#pyramide {
-    width: 400px;
-    position: absolute;
-    z-index: 2;
-}
+
 
 .home {
     height: 100vh;
+    overflow: hidden;
 }
 
 .menuPyramide {
