@@ -1,0 +1,68 @@
+html {
+    background: #2E2B30;
+}
+
+.home {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.home .homeTop {
+    display: flex;
+    justify-content: center;
+}
+
+.home .homeTop .titleHome {
+    font-size: 55px;
+    color: white;
+    font-family: "Questa Grande", serif;
+    padding-top: 50px;
+}
+
+.home .scrollDown {
+    position: absolute;
+    bottom: 5%;
+    left: 40px;
+}
+
+.home .scrollDown p {
+    font-family: Avenir, sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    color: #BFBFBF;
+}
+
+.home .scrollDown .arrowDown {
+    position: absolute;
+    bottom: 25%;
+    left: 150px;
+    height: 30px;
+}
+
+.home .txt1Home, .home .txt2Home {
+    color: #BFBFBF;
+    font-size: 20px;
+    width: 320px;
+    text-align: justify;
+    font-family: Avenir, sans-serif;
+}
+
+.home .txt2Home {
+    position: absolute;
+    right: 60px;
+    top: 200px;
+}
+
+.home .txt1Home {
+    position: absolute;
+    left: 60px;
+    bottom: 200px;
+}
+
+.menuPyramide {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    width: 60px;
+}
