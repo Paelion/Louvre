@@ -1,8 +1,12 @@
 <template>
     <div class="home">
         <div class="homeTop">
-            <h1 class="titleHome">Musée du Louvre</h1>
-            <Menu/>
+            <div class="homeTop--wrapper">
+                <div class="title--wrapper">
+                    <h1 class="titleHome">Musée du Louvre</h1>
+                </div>
+                <Menu class="menuPyramideHome"/>
+            </div>
         </div>
         <p class="txt1Home">Au total, plus de 35 000 œuvres !<br>
             En huit siècles d’existence, le Louvre

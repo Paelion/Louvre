@@ -5,14 +5,15 @@
 
 </template>
 
+
 <script>
-
     export default {
-        name: "Pyramide",
-
+        name: "Pyramide"
     }
 
+
 </script>
+
 
 <style scoped>
 
