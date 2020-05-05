@@ -1,5 +1,6 @@
 <template>
     <div class="home">
+        <div class="cursor"></div>
         <div class="homeTop">
             <h1 class="titleHome">Musée du Louvre</h1>
             <Menu/>
