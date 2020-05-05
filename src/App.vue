@@ -1,19 +1,19 @@
 <template>
     <div id="app">
-        <Home/>
-        <Oeuvre/>
+        <!--<Home id="home"/>-->
+        <Oeuvre id="oeuvre"/>
     </div>
 </template>
 
 <script>
-    import Home from "./components/Home";
+    //import Home from "./components/Home";
     import Oeuvre from "./components/Oeuvre";
 
 
     export default {
         name: 'App',
         components: {
-            Home,
+           // Home,
             Oeuvre
         }
     }

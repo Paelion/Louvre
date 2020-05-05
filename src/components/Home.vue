@@ -25,9 +25,13 @@
             le Radeau de la Méduse,
             la Vénus de Milo…
         </p>
+
         <div class="scrollDown">
-            <p>Scroll Down</p>
-            <img class="arrowDown" src="../../public/img/down-arrow.png">
+            <a @click="">
+                    <p>Nos oeuvres</p>
+                    <img class="arrowDown" src="../../public/img/right-arrow.png">
+            </a>
+
         </div>
     </div>
 </template>
@@ -43,6 +47,11 @@
         components: {
             Menu,
             Pyramide
+        },
+        data() {
+            return {
+
+            }
         }
     }
 </script>

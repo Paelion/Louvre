@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 import * as THREE from '../three/three';
-
+import vuetify from './plugins/vuetify';
 
 
 
@@ -9,11 +9,16 @@ import * as THREE from '../three/three';
 Vue.config.productionTip = false;
 
 new Vue({
-  render: h => h(App),
+  vuetify,
+  render: h => h(App)
 }).$mount('#app');
 
 
 //// JS CLASSIQUE ////
+
+
+
+
 
 
 

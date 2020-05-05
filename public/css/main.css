@@ -1,68 +1,90 @@
 html {
-    background: #2E2B30;
-}
+  background: #2E2B30; }
 
 .home {
-    height: 100vh;
-    overflow: hidden;
-}
-
-.home .homeTop {
-    display: flex;
-    justify-content: center;
-}
-
-.home .homeTop .titleHome {
-    font-size: 55px;
-    color: white;
-    font-family: "Questa Grande", serif;
-    padding-top: 50px;
-}
-
-.home .scrollDown {
+  height: 100vh;
+  overflow: hidden; }
+  .home .homeTop {
+    display: flex; }
+    .home .homeTop .homeTop--wrapper {
+      position: absolute;
+      display: flex;
+      justify-content: center; }
+      .home .homeTop .homeTop--wrapper .title--wrapper {
+        display: flex;
+        justify-content: center; }
+        .home .homeTop .homeTop--wrapper .title--wrapper .titleHome {
+          position: relative;
+          left: 120%;
+          font-size: 55px;
+          color: white;
+          font-family: "Questa Grande", serif;
+          padding-top: 50px; }
+  .home .menuPyramide {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    width: 60px; }
+  .home .scrollDown {
     position: absolute;
     bottom: 5%;
-    left: 40px;
-}
-
-.home .scrollDown p {
-    font-family: Avenir, sans-serif;
-    text-transform: uppercase;
-    font-size: 18px;
-    font-weight: bold;
-    color: #BFBFBF;
-}
-
-.home .scrollDown .arrowDown {
-    position: absolute;
-    bottom: 25%;
-    left: 150px;
-    height: 30px;
-}
-
-.home .txt1Home, .home .txt2Home {
+    left: 40px; }
+    .home .scrollDown p {
+      font-family: Avenir, sans-serif;
+      text-transform: uppercase;
+      font-size: 18px;
+      font-weight: bold;
+      color: #BFBFBF; }
+    .home .scrollDown .arrowDown {
+      position: absolute;
+      bottom: 25%;
+      left: 150px;
+      height: 30px; }
+  .home .txt1Home, .home .txt2Home {
     color: #BFBFBF;
     font-size: 20px;
     width: 320px;
     text-align: justify;
-    font-family: Avenir, sans-serif;
-}
-
-.home .txt2Home {
+    font-family: Avenir, sans-serif; }
+  .home .txt2Home {
     position: absolute;
     right: 60px;
-    top: 200px;
-}
-
-.home .txt1Home {
+    top: 200px; }
+  .home .txt1Home {
     position: absolute;
     left: 60px;
-    bottom: 200px;
-}
+    bottom: 200px; }
 
-.menuPyramide {
+.oeuvre {
+  font-family: Avenir, sans-serif; }
+  .oeuvre .oeuvre--wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 50px; }
+    .oeuvre .oeuvre--wrapper .oeuvre--content--wrapper .oeuvre--content {
+      background: #BFBFBF;
+      color: black;
+      padding: 20px 0 0 30px; }
+      .oeuvre .oeuvre--wrapper .oeuvre--content--wrapper .oeuvre--content h3 {
+        font-size: 20px; }
+      .oeuvre .oeuvre--wrapper .oeuvre--content--wrapper .oeuvre--content p {
+        font-family: "Questa Grande", serif;
+        font-size: 18px; }
+    .oeuvre .oeuvre--wrapper .oeuvre--content--wrapper:hover {
+      transform: scale(0.95);
+      opacity: 0.7;
+      transition: 0.5s; }
+  .oeuvre h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    color: #BFBFBF;
+    margin-top: 50px; }
+  .oeuvre hr {
     position: absolute;
-    top: 30px;
-    left: 40px;
-    width: 60px;
-}
+    left: 50%;
+    transform: translate(-50%);
+    width: 500px;
+    margin-top: 20px;
+    opacity: 0.6; }
