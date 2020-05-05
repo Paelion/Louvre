@@ -27,24 +27,20 @@
             return {
                 contents: [
                     {
-                        image: "",
-                        titre: "La Joconde",
-                        legende: "testtesttest ",
+                        image: "https://www.pauline-aelion.fr/img/siteVue/joconde.jpg",
+                        titre: "La Joconde"
                     },
                     {
-                        image: "",
-                        titre: "La Venus de Milo",
-                        legende: "testtesttest ",
+                        image: "https://www.pauline-aelion.fr/img/siteVue/venus1.jpg",
+                        titre: "La Venus de Milo"
                     },
                     {
-                        image: "",
-                        titre: "Toutânkhamon",
-                        legende: "testtesttest ",
+                        image: "https://www.pauline-aelion.fr/img/siteVue/phara.jpg",
+                        titre: "Toutânkhamon"
                     },
                     {
-                        image: "",
-                        titre: "La liberté guidant le peuple",
-                        legende: "testtesttest ",
+                        image: "https://www.pauline-aelion.fr/img/siteVue/liberte.jpg",
+                        titre: "La liberté guidant le peuple"
                     },
                 ]
             }

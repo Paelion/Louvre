@@ -1,10 +1,12 @@
 <template>
     <div class="oeuvre--content--wrapper">
-        <img :src="image" style="height: 200px; width: 400px;">
+        <div class="oeuvre--image">
+            <img :src="image">
+        </div>
+
         <div class="oeuvre--content">
             <h3>{{titre}}</h3>
-            <p>{{legende}}</p>
-            <button>{{voir}}</button>
+            <img src="../../public/img/interface.png">
         </div>
     </div>
 </template>
@@ -15,10 +17,7 @@
         props: {
             image: String,
             titre: String,
-            legende: String,
-            index: Number,
-            voir: String
-
+            index: Number
         },
     }
 </script>

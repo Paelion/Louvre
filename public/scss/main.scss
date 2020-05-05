@@ -1,8 +1,11 @@
 $bc-color: #2E2B30;
+$txt-color: #BFBFBF;
+$fontSS: Avenir, sans-serif;
+$fontAS: "Questa Grande", serif;
 
 
 html {
-  background: #2E2B30;
+  background: $bc-color;
 }
 
 .home {
@@ -27,7 +30,7 @@ html {
           left: 120%;
           font-size: 55px;
           color: white;
-          font-family: "Questa Grande", serif;
+          font-family: $fontAS;
           padding-top: 50px;
         }
       }
@@ -47,11 +50,11 @@ html {
     left: 40px;
 
     p {
-      font-family: Avenir, sans-serif;
+      font-family: $fontSS;
       text-transform: uppercase;
       font-size: 18px;
       font-weight: bold;
-      color: #BFBFBF;
+      color: $txt-color;
     }
 
     .arrowDown {
@@ -63,11 +66,11 @@ html {
   }
 
   .txt1Home, .txt2Home {
-    color: #BFBFBF;
+    color: $txt-color;
     font-size: 20px;
     width: 320px;
     text-align: justify;
-    font-family: Avenir, sans-serif;
+    font-family: $fontSS;
   }
 
   .txt2Home {
@@ -84,49 +87,114 @@ html {
 
 
 }
-.oeuvre{
-  font-family: Avenir, sans-serif;
 
-  .oeuvre--wrapper{
+.oeuvre {
+  font-family: $fontSS;
+
+  .oeuvre--wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-top: 50px;
 
-    .oeuvre--content--wrapper{
-      margin: 20px 50px 0 50px;
-      .oeuvre--content{
-        background: #BFBFBF;
-        color: black;
-        padding: 20px 0 0 30px;
+    .oeuvre--content--wrapper {
+      margin: 20px 50px 50px 50px;
 
-        h3{
-          font-size: 20px;
-        }
-        p{
-          font-family: "Questa Grande", serif;
+      .oeuvre--content {
+        display: flex;
+        align-items: center;
+        background: #95989A;
+        color: $bc-color;
+        padding: 20px 0 0 30px;
+        border-radius: 0 0 10px 10px;
+        position: relative;
+
+        h3 {
           font-size: 18px;
+          margin: 0 0 15px 0;
+        }
+
+        img {
+          position: absolute;
+          height: 20px;
+          width: auto;
+          display: flex;
+          justify-content: center;
+          right: 10%;
         }
       }
-      &:hover{
-        transform: scale(0.95);
-        opacity: 0.7;
+
+      &:hover {
+        opacity: 0.5;
         transition: 0.5s;
+        cursor: pointer;
+      }
+
+      .oeuvre--image {
+        width: 400px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        border-radius: 10px 10px 0 0;
+
+        img {
+          height: 200px;
+          width: auto;
+        }
       }
     }
-
-
+    a{
+      color: $txt-color;
+    }
   }
 
-  h2{
+  .joconde {
+    h2{
+      font-family: $fontAS;
+      font-size: 50px;
+    }
+    .joconde--wrapper{
+      display: flex;
+      justify-content: space-around;
+      margin-top: 10%;
+      img {
+        height: 450px;
+        width: auto;
+      }
+      p{
+        color: $txt-color;
+        font-size: 19px;
+        width: 45%;
+        text-align: justify;
+
+      }
+    }
+  }
+
+  a{
+    position: absolute;
+    color: $txt-color;
+    font-weight: bold;
+    font-size: 22px;
+    bottom:40px;
+  }
+  .next{
+    right: 80px;
+  }
+  .prev{
+    left: 50px;
+  }
+
+  h2 {
     display: flex;
     justify-content: center;
     font-size: 45px;
-    color: #BFBFBF;
+    color: $txt-color;
     margin-top: 50px;
+    margin-bottom: 0;
   }
 
-  hr{
+  hr {
     position: absolute;
     left: 50%;
     transform: translate(-50%);
@@ -135,7 +203,7 @@ html {
     opacity: 0.6;
   }
 
-  .menuPyramideOeuvre{
+  .menuPyramideOeuvre {
     position: absolute;
     top: 25px;
     left: 30px;
