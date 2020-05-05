@@ -27,10 +27,10 @@
         </p>
 
         <div class="scrollDown">
-            <a @click="">
-                    <p>Nos oeuvres</p>
-                    <img class="arrowDown" src="../../public/img/right-arrow.png">
-            </a>
+            <!--   <a @click="">
+                       <p>Nos oeuvres</p>
+                       <img class="arrowDown" src="../../public/img/right-arrow.png">
+            </a> -->
 
         </div>
     </div>

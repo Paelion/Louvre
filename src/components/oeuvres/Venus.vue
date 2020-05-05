@@ -16,7 +16,7 @@
     import Menu from "../Menu";
 
     export default {
-        name: "Venus",
+        name: 'Venus',
         components: {
             Menu
         },

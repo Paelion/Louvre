@@ -16,7 +16,7 @@
     import Menu from "../Menu";
 
     export default {
-        name: "Toutankhamon",
+        name: 'Toutankhamon',
         components: {
             Menu
         },

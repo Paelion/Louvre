@@ -34,7 +34,7 @@
     import Menu from "../Menu";
 
     export default {
-        name: "Joconde",
+        name: 'Joconde',
         components: {
             Menu
         },
