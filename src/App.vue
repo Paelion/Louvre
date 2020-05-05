@@ -18,36 +18,6 @@
             // Home,
             //Oeuvre,
             Joconde
-        },
-        data() {
-            return {
-                contents: [
-                    {
-                        image: "",
-                        titre: "La Joconde",
-                        description: "testtesttest ",
-                        index: 0
-                    },
-                    {
-                        image: "",
-                        titre: "La Venus de Milo",
-                        description: "testtesttest ",
-                        index: 1
-                    },
-                    {
-                        image: "",
-                        titre: "Toutânkhamon",
-                        description: "testtesttest ",
-                        index: 2
-                    },
-                    {
-                        image: "",
-                        titre: "La liberté guidant le peuple",
-                        description: "testtesttest ",
-                        index: 3
-                    },
-                ]
-            }
         }
     }
 </script>
