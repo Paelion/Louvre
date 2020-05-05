@@ -1,7 +1,7 @@
 <template>
 
-
     <div class="oeuvre">
+        <Menu class="menuPyramideOeuvre"/>
         <h2>Nos oeuvrs phares</h2>
         <hr>
         <div class="oeuvre--wrapper">
@@ -15,10 +15,14 @@
 
 <script>
     import OeuvreSingle from "./OeuvreSingle";
+    import Menu from "./Menu";
 
     export default {
         name: "Oeuvre",
-        components: {OeuvreSingle},
+        components: {
+            OeuvreSingle,
+            Menu
+        },
         data() {
             return {
                 contents: [

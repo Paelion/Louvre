@@ -1,5 +1,5 @@
 <template>
-    <div class="oeuvre--content--wrapper" style="margin: 20px 50px 0 50px; ">
+    <div class="oeuvre--content--wrapper">
         <img :src="image" style="height: 200px; width: 400px;">
         <div class="oeuvre--content">
             <h3>{{titre}}</h3>
