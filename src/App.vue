@@ -1,8 +1,11 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/home">Home</router-link> |
+      <router-link to="/joconde">Joconde</router-link> |
+      <router-link to="/liberte">Liberté</router-link> |
+      <router-link to="/venus">Venus</router-link> |
+      <router-link to="/toutankhamon">Toutankhamon</router-link>
     </div>
     <router-view/>
   </div>

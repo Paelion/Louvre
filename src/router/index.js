@@ -12,27 +12,27 @@ Vue.use(Router);
 export default new Router({
   routes: [
     {
-      path: 'home',
+      path: '/home',
       name: 'Home',
       component: Home
     },
     {
-      path: 'joconde',
+      path: '/joconde',
       name: 'Joconde',
       component: Joconde
     },
     {
-      path: 'liberte',
+      path: '/liberte',
       name: 'Liberte',
       component: Liberte
     },
     {
-      path: 'toutankhamon',
+      path: '/toutankhamon',
       name: 'Toutankhamon',
       component: Toutankhamon
     },
     {
-      path: 'venus',
+      path: '/venus',
       name: 'Venus',
       component: Venus
     }
