@@ -14,7 +14,7 @@
 
 <script>
     import Menu from "../Menu";
-    
+
     export default {
         name: "Liberte",
         components: {
