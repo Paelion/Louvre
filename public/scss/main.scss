@@ -8,6 +8,10 @@ html {
   background: $bc-color;
 }
 
+#nav {
+  padding: 10px;
+}
+
 .home {
   height: 100vh;
   overflow: hidden;
@@ -15,6 +19,7 @@ html {
 
   .homeTop {
     display: flex;
+    padding-bottom: 20px;
 
     .homeTop--wrapper {
       position: absolute;
@@ -31,7 +36,7 @@ html {
           font-size: 55px;
           color: white;
           font-family: $fontAS;
-          padding-top: 50px;
+          padding-top: 20px;
         }
       }
     }
@@ -39,12 +44,12 @@ html {
 
   .menuPyramide {
     position: absolute;
-    top: 30px;
+    top: 0;
     left: 40px;
     width: 60px;
   }
 
-  .scrollDown {
+  .arrow {
     position: absolute;
     bottom: 5%;
     left: 40px;
@@ -57,12 +62,17 @@ html {
       color: $txt-color;
     }
 
-    .arrowDown {
+    .arrowRight {
       position: absolute;
       bottom: 25%;
       left: 150px;
       height: 30px;
     }
+
+    .home--link {
+      text-decoration: none;
+    }
+
   }
 
   .txt1Home, .txt2Home {
@@ -76,7 +86,7 @@ html {
   .txt2Home {
     position: absolute;
     right: 60px;
-    top: 200px;
+    top: 230px;
   }
 
   .txt1Home {
@@ -91,106 +101,13 @@ html {
 .oeuvre {
   font-family: $fontSS;
 
-  .oeuvre--wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-top: 50px;
-
-    .oeuvre--content--wrapper {
-      margin: 20px 50px 50px 50px;
-
-      .oeuvre--content {
-        display: flex;
-        align-items: center;
-        background: #95989A;
-        color: $bc-color;
-        padding: 20px 0 0 30px;
-        border-radius: 0 0 10px 10px;
-        position: relative;
-
-        h3 {
-          font-size: 18px;
-          margin: 0 0 15px 0;
-        }
-
-        img {
-          position: absolute;
-          height: 20px;
-          width: auto;
-          display: flex;
-          justify-content: center;
-          right: 10%;
-        }
-      }
-
-      &:hover {
-        opacity: 0.5;
-        transition: 0.5s;
-        cursor: pointer;
-      }
-
-      .oeuvre--image {
-        width: 400px;
-        background-color: black;
-        display: flex;
-        justify-content: center;
-        border-radius: 10px 10px 0 0;
-
-        img {
-          height: 200px;
-          width: auto;
-        }
-      }
-    }
-    a{
-      color: $txt-color;
-    }
-  }
-
-  .joconde {
-    h2{
-      font-family: $fontAS;
-      font-size: 50px;
-    }
-    .joconde--wrapper{
-      display: flex;
-      justify-content: space-around;
-      margin-top: 10%;
-      img {
-        height: 450px;
-        width: auto;
-      }
-      p{
-        color: $txt-color;
-        font-size: 19px;
-        width: 45%;
-        text-align: justify;
-
-      }
-    }
-  }
-
-  a{
-    position: absolute;
-    color: $txt-color;
-    font-weight: bold;
-    font-size: 22px;
-    bottom:40px;
-  }
-  .next{
-    right: 80px;
-  }
-  .prev{
-    left: 50px;
-  }
-
   h2 {
+    font-family: $fontAS;
     display: flex;
     justify-content: center;
     font-size: 45px;
     color: $txt-color;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 0;
   }
 
@@ -209,6 +126,129 @@ html {
     left: 30px;
     width: 60px;
   }
+
+  .oeuvre--wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 60px;
+
+    .oeuvre--content--wrapper {
+      margin: 20px 50px 50px 50px;
+
+      .oeuvre--content {
+        display: flex;
+        align-items: center;
+        background: #95989A;
+        color: $bc-color;
+        padding: 20px 0 0 30px;
+        border-radius: 0 0 10px 10px;
+        position: relative;
+
+        .oeuvre--link {
+          text-decoration: none;
+
+          h3 {
+            font-size: 18px;
+            margin: 0 0 15px 0;
+            cursor: pointer;
+            color: $bc-color;
+          }
+
+          img {
+            position: absolute;
+            height: 20px;
+            width: auto;
+            display: flex;
+            justify-content: center;
+            right: 10%;
+            top: 40%;
+            cursor: pointer;
+          }
+        }
+      }
+
+      &:hover {
+        opacity: 0.6;
+        transition: 0.5s;
+      }
+
+      .oeuvre--image {
+        width: 400px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        border-radius: 10px 10px 0 0;
+
+        img {
+          height: 200px;
+          width: auto;
+        }
+      }
+    }
+
+    a {
+      color: $txt-color;
+    }
+  }
+
+  .joconde, .venus, .toutankhamon, .liberte {
+    h2 {
+      font-family: $fontAS;
+      font-size: 50px;
+    }
+
+    .joconde--wrapper, .venus--wrapper, .toutankhamon--wrapper, .liberte--wrapper {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 8%;
+
+      img {
+        height: 450px;
+        width: auto;
+      }
+
+      p {
+        color: $txt-color;
+        font-size: 19px;
+        width: 45%;
+        text-align: justify;
+      }
+    }
+  }
+
+  .liberte {
+
+    .liberte--wrapper {
+
+      p {
+        color: $txt-color;
+        font-size: 19px;
+        width: 40%;
+        text-align: justify;
+      }
+    }
+  }
 }
+
+
+.oeuvreSlide {
+  position: absolute;
+  text-decoration: none;
+  color: $txt-color;
+  font-weight: bold;
+  font-size: 21px;
+  margin-top: 5%;
+}
+
+.next {
+  right: 80px;
+}
+
+.prev {
+  left: 50px;
+}
+
+
 
 

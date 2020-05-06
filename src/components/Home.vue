@@ -26,11 +26,11 @@
             la Vénus de Milo…
         </p>
 
-        <div class="scrollDown">
-            <!--   <a @click="">
-                       <p>Nos oeuvres</p>
-                       <img class="arrowDown" src="../../public/img/right-arrow.png">
-            </a> -->
+        <div class="arrow">
+            <router-link to="/oeuvre" class="home--link">
+                <p>Nos oeuvres</p>
+                <img class="arrowRight" src="../../public/img/right-arrow.png">
+            </router-link>
 
         </div>
     </div>
@@ -49,9 +49,7 @@
             Pyramide
         },
         data() {
-            return {
-
-            }
+            return {}
         }
     }
 </script>

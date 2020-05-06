@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 
 import Home from '../components/Home.vue'
+import Oeuvre from '../components/Oeuvre.vue'
 import Joconde from '../components/oeuvres/Joconde.vue'
 import Liberte from '../components/oeuvres/Liberte.vue'
 import Toutankhamon from '../components/oeuvres/Toutankhamon.vue'
@@ -15,6 +16,11 @@ export default new Router({
       path: '/home',
       name: 'Home',
       component: Home
+    },
+    {
+      path: '/oeuvre',
+      name: 'Oeuvre',
+      component: Oeuvre
     },
     {
       path: '/joconde',

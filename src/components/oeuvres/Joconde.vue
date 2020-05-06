@@ -24,8 +24,8 @@
             </div>
         </div>
 
-        <a class="prev">Oeuvre pécédente</a>
-        <a class="next">Oeuvre suivante</a>
+        <router-link to="/liberte" class="oeuvreSlide prev">Oeuvre pécédente</router-link>
+        <router-link to="/venus" class="oeuvreSlide next">Oeuvre suivante</router-link>
 
     </div>
 </template>
