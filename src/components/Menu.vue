@@ -1,7 +1,9 @@
 <template>
-<div>
-    <img class="menuPyramide" src="../../public/img/MenuPyramide.png">
-</div>
+    <div>
+        <router-link to="/menu">
+            <img class="menuPyramide" src="../../public/img/MenuPyramide.png">
+        </router-link>
+    </div>
 </template>
 
 <script>
@@ -9,7 +11,6 @@
         name: "Menu"
     }
 </script>
-
 
 
 <style scoped>

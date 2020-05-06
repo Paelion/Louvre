@@ -1,15 +1,16 @@
 html {
   background: #2E2B30; }
 
-#nav {
-  padding: 10px; }
+body {
+  margin: 0; }
 
 .home {
   height: 100vh;
   overflow: hidden; }
   .home .homeTop {
     display: flex;
-    padding-bottom: 20px; }
+    padding-bottom: 20px;
+    padding-top: 40px; }
     .home .homeTop .homeTop--wrapper {
       position: absolute;
       display: flex;
@@ -162,3 +163,45 @@ html {
 
 .prev {
   left: 50px; }
+
+.menu--wrapper {
+  background: #000;
+  height: 100vh; }
+  .menu--wrapper .cross {
+    position: absolute;
+    padding: 50px;
+    width: 40px; }
+  .menu--wrapper .menuLanding--title {
+    font-size: 55px;
+    font-family: "Questa Grande", serif;
+    text-align: center;
+    color: #95989A;
+    margin: 0;
+    padding-top: 10%;
+    padding-left: 40px; }
+  .menu--wrapper hr {
+    position: absolute;
+    left: 50%;
+    transform: translate(-30%);
+    width: 100px; }
+  .menu--wrapper .menuLanding--wrapper {
+    background: #000;
+    display: flex;
+    justify-content: center; }
+    .menu--wrapper .menuLanding--wrapper .menuLanding {
+      display: block;
+      text-decoration: none;
+      list-style: none;
+      font-size: 45px;
+      font-weight: bold;
+      font-family: Avenir, sans-serif;
+      text-align: center; }
+      .menu--wrapper .menuLanding--wrapper .menuLanding .menu--link {
+        text-decoration: none;
+        color: #fff; }
+      .menu--wrapper .menuLanding--wrapper .menuLanding li {
+        margin: 50px; }
+        .menu--wrapper .menuLanding--wrapper .menuLanding li:hover {
+          opacity: 0.6;
+          transition: 0.5s;
+          cursor: pointer; }

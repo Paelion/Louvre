@@ -7,6 +7,7 @@ import Joconde from '../components/oeuvres/Joconde.vue'
 import Liberte from '../components/oeuvres/Liberte.vue'
 import Toutankhamon from '../components/oeuvres/Toutankhamon.vue'
 import Venus from '../components/oeuvres/Venus.vue'
+import MenuLanding from "../components/MenuLanding";
 
 Vue.use(Router);
 
@@ -41,6 +42,11 @@ export default new Router({
       path: '/venus',
       name: 'Venus',
       component: Venus
+    },
+    {
+      path: '/menu',
+      name: 'MenuLanding',
+      component: MenuLanding
     }
   ]
 })
