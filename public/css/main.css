@@ -28,8 +28,7 @@ body {
   .home .menuPyramide {
     position: absolute;
     top: 0;
-    left: 40px;
-    width: 60px; }
+    left: 40px; }
   .home .arrow {
     position: absolute;
     bottom: 5%;

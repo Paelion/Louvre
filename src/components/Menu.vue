@@ -1,7 +1,7 @@
 <template>
     <div>
         <router-link to="/menu">
-            <img class="menuPyramide" src="../../public/img/MenuPyramide.png">
+            <img class="menuPyramide" src="../../public/img/menu.png">
         </router-link>
     </div>
 </template>
