@@ -54,76 +54,13 @@
                 </router-link>
             </div>
         </div>
-
-
-        <div class="overlay-image">
-            <a href="URL_LIEN">
-                <img class="image" src="IMAGE" alt="Alt text"/>
-                <div class="normal">
-                    <div class="text">Image + texte
-                        NORMAL
-                    </div>
-                </div>
-                <div class="hover">
-                    <div class="text">Background + texte
-                        HOVER
-                    </div>
-                </div>
-            </a>
-        </div>
-
-
     </div>
 </template>
 
 <script>
-    //import OeuvreSingle from "./OeuvreSingle";
 
     export default {
-        name: "Oeuvre",
-        components: {
-            //OeuvreSingle
-        },
-        data() {
-            return {
-                contents: [
-                    {
-                        image: "http://www.front-2.devlab-devinci.fr/img/liberte.jpg",
-                        titre: "La liberté guidant le peuple",
-                        oeuvre: "liberte"
-                    },
-
-                    {
-                        image: "http://www.front-2.devlab-devinci.fr/img/scribe.jpg",
-                        titre: "Scribe",
-                        oeuvre: "scribe"
-                    },
-                    {
-                        image: "http://www.front-2.devlab-devinci.fr/img/denteliere.jpg",
-                        titre: "La Dentelière",
-                        oeuvre: "denteliere"
-                    },
-
-                    {
-                        image: "http://www.front-2.devlab-devinci.fr/img/venus2.jpg",
-                        titre: "La Venus de Milo",
-                        oeuvre: "venus"
-                    },
-
-                    {
-                        image: "http://www.front-2.devlab-devinci.fr/img/joconde.jpg",
-                        titre: "La Joconde",
-                        oeuvre: "joconde"
-                    },
-                    {
-                        image: "http://www.front-2.devlab-devinci.fr/img/phara.jpg",
-                        titre: "Toutânkhamon",
-                        oeuvre: "toutankhamon"
-                    },
-
-                ]
-            }
-        }
+        name: "Oeuvre"
     }
 </script>
 

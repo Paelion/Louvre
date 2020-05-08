@@ -42,7 +42,6 @@ body {
         }
       }
 
-
     }
   }
 
@@ -56,6 +55,12 @@ body {
     position: absolute;
     bottom: 5%;
     left: 40px;
+
+    &:hover{
+      transform: translateX(80px);
+      transition: 0.5s;
+    }
+
 
     p {
       font-family: $fontSS;
@@ -101,13 +106,12 @@ body {
 
 }
 
-.oeuvre--bc{
+.oeuvre--bc {
   background: $galerie-color;
 }
+
 .oeuvre {
   font-family: $fontSS;
-
-
 
 
   h2 {
@@ -129,105 +133,107 @@ body {
   }
 
   .oeuvre--wrapper {
+    margin: 100px 200px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-top: 60px;
+
+    h2 {
+      writing-mode: vertical-rl;
+      text-orientation: upright;
+      text-transform: uppercase;
+      font-size: 50px;
+      margin-top: -50px;
+      margin-left: -50px;
+    }
 
     .oeuvre--content--wrapper {
-      margin: 20px 50px 50px 50px;
+      margin: 0 10px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
 
-      .oeuvre--content {
-        display: flex;
-        align-items: center;
-        background: #95989A;
-        color: $bc-color;
-        padding: 20px 0 0 30px;
-        border-radius: 0 0 10px 10px;
-        position: relative;
+      .textEffect {
 
-        .oeuvre--link {
-          text-decoration: none;
+        .imgGallerie {
+          img {
+            display: block;
+            width: 250px;
+            margin: 0 10px;
+
+            &:hover {
+              opacity: 0.5;
+              transform: scale(0.95);
+              transition: 0.5s;
+              cursor: pointer;
+            }
+          }
 
           h3 {
-            font-size: 18px;
-            margin: 0 0 15px 0;
-            cursor: pointer;
-            color: $bc-color;
+            display: none;
+            color: $txt-color;
+            font-size: 15px;
+            margin-left: 20px;
+            margin-top: 5px;
           }
 
-          img {
-            position: absolute;
-            height: 20px;
-            width: auto;
-            display: flex;
-            justify-content: center;
-            right: 10%;
-            top: 40%;
-            cursor: pointer;
+
+          .venusIMG {
+            margin-top: -50%;
+          }
+
+          .jocondeIMG {
+            margin-top: 11%;
+          }
+
+          .pharaIMG {
+            margin-top: -17%;
           }
         }
       }
 
-      &:hover {
-        opacity: 0.6;
-        transition: 0.5s;
-      }
+    }
+  }
 
-      .oeuvre--image {
-        width: 400px;
-        background-color: black;
-        display: flex;
-        justify-content: center;
-        border-radius: 10px 10px 0 0;
+  a {
+    color: $txt-color;
+  }
 
-        img {
-          height: 200px;
-          width: auto;
-        }
-      }
+}
+
+
+.joconde, .venus, .toutankhamon, .liberte, .scribe, .dentelliere {
+  h2 {
+    font-family: $fontAS;
+    font-size: 50px;
+  }
+
+  .joconde--wrapper, .venus--wrapper, .toutankhamon--wrapper, .liberte--wrapper, .scribe--wrapper, .dentelliere--wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8%;
+
+    img {
+      height: 450px;
+      width: auto;
     }
 
-    a {
+    p {
       color: $txt-color;
+      font-size: 19px;
+      width: 45%;
+      text-align: justify;
     }
   }
+}
 
-  .joconde, .venus, .toutankhamon, .liberte {
-    h2 {
-      font-family: $fontAS;
-      font-size: 50px;
-    }
+.liberte {
 
-    .joconde--wrapper, .venus--wrapper, .toutankhamon--wrapper, .liberte--wrapper {
-      display: flex;
-      justify-content: space-around;
-      margin-top: 8%;
+  .liberte--wrapper {
 
-      img {
-        height: 450px;
-        width: auto;
-      }
-
-      p {
-        color: $txt-color;
-        font-size: 19px;
-        width: 45%;
-        text-align: justify;
-      }
-    }
-  }
-
-  .liberte {
-
-    .liberte--wrapper {
-
-      p {
-        color: $txt-color;
-        font-size: 19px;
-        width: 40%;
-        text-align: justify;
-      }
+    p {
+      color: $txt-color;
+      font-size: 19px;
+      width: 40%;
+      text-align: justify;
     }
   }
 }
@@ -244,10 +250,21 @@ body {
 
 .next {
   right: 80px;
+
+  &:hover{
+    color: white;
+    transform: scale(1.1);
+    transition: 0.5s;
+  }
 }
 
 .prev {
   left: 50px;
+  &:hover{
+    color: white;
+    transform: scale(1.1);
+    transition: 0.5s;
+  }
 }
 
 .menu--wrapper {
@@ -350,8 +367,9 @@ body {
     height: 100%;
   }
 }
-.plan--wrapper{
-  .plan{
+
+.plan--wrapper {
+  .plan {
     position: absolute;
     top: 60%;
     left: 50%;
@@ -360,7 +378,7 @@ body {
     width: auto;
   }
 
-  h2{
+  h2 {
     font-family: $fontAS;
     display: flex;
     justify-content: center;
