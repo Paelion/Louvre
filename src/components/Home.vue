@@ -2,8 +2,12 @@
     <div class="home">
         <div class="cursor"></div>
         <div class="homeTop">
-            <h1 class="titleHome">Musée du Louvre</h1>
-            <Menu/>
+            <div class="homeTop--wrapper">
+                <div class="title--wrapper">
+                    <h1 class="titleHome">Musée du Louvre</h1>
+                </div>
+
+            </div>
         </div>
         <p class="txt1Home">Au total, plus de 35 000 œuvres !<br>
             En huit siècles d’existence, le Louvre
@@ -22,24 +26,31 @@
             le Radeau de la Méduse,
             la Vénus de Milo…
         </p>
-        <div class="scrollDown">
-            <p>Scroll Down</p>
-            <img class="arrowDown" src="../../public/img/down-arrow.png">
+
+        <div class="arrow">
+            <router-link to="/oeuvre" class="home--link">
+                <p>Nos oeuvres</p>
+                <img class="arrowRight" src="../../public/img/right-arrow.png">
+            </router-link>
+
         </div>
     </div>
 </template>
 
 
 <script>
-    import Menu from "./Menu";
+    //import Menu from "./Menu";
     import Pyramide from "./Pyramide";
 
 
     export default {
         name: 'Home',
         components: {
-            Menu,
+            //Menu,
             Pyramide
+        },
+        data() {
+            return {}
         }
     }
 </script>
