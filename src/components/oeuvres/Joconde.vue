@@ -19,7 +19,7 @@
                     magnam
                     placeat possimus similique vel voluptatem voluptatibus! Autem cumque cupiditate molestias mollitia optio
                     perspiciatis, sunt tenetur voluptas!</p>
-                <img src="../../../public/img/joconde.jpg">
+                <img src="../../../public/img/joconde.png">
             </div>
         </div>
 

@@ -6,9 +6,9 @@
             <img src="../../public/img/bat2V.png" id="bat"/>
             <img src="../../public/img/pyramideV.png" id="pyra"/>
             <img src="../../public/img/solV.png" id="sol"/>
-            <h2 id="text">Galerie</h2>
+            <h2 id="text">L'Esplanade</h2>
         </section>
-        <h2>Plan du Louvre</h2>
+        <h3>Plan du Louvre</h3>
         <img src="../../public/img/plan.svg" class="plan">
     </div>
 </template>

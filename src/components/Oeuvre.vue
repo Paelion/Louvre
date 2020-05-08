@@ -31,7 +31,7 @@
                 <router-link to="venus" class="oeuvre--link">
                     <div class="textEffect">
                         <div class="imgGallerie">
-                            <img class=" venusIMG" src="../../public/img/venus2.jpg">
+                            <img class=" venusIMG" src="../../public/img/venus2.png">
                             <h3 class="titleGallerie">Voir l'oeuvre</h3>
                         </div>
                     </div>
@@ -39,7 +39,7 @@
                 <router-link to="/joconde" class="oeuvre--link">
                     <div class="textEffect">
                         <div class="imgGallerie">
-                            <img class=" jocondeIMG" src="../../public/img/joconde.jpg">
+                            <img class=" jocondeIMG" src="../../public/img/joconde.png">
                             <h3 class="titleGallerie">Voir l'oeuvre</h3>
                         </div>
                     </div>

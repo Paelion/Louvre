@@ -14,7 +14,7 @@
                         <router-link to="/oeuvre" class="menu--link"> Galerie</router-link>
                     </li>
                     <li class="menuItem3">
-                        <router-link to="/plan" class="menu--link"> Plan du Louvre</router-link>
+                        <router-link to="/plan" class="menu--link"> L'Esplanade</router-link>
                     </li>
                 </ul>
             </div>
