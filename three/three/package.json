@@ -32,7 +32,7 @@
   "deprecated": false,
   "description": "JavaScript 3D library",
   "devDependencies": {
-    "eslint": "^3.10.1",
+    "eslint": "^6.8.0",
     "eslint-config-mdcs": "^4.2.3",
     "rollup": "^0.36.3",
     "rollup-watch": "^2.5.0",
