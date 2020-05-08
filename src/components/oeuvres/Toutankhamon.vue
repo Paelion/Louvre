@@ -4,7 +4,7 @@
         <div class="toutankhamon">
             <h2>Le pharaon Toutankhâmon</h2>
             <div class="toutankhamon--wrapper">
-                <img src="https://www.pauline-aelion.fr/img/siteVue/phara.jpg">
+                <img src="../../../public/img/phara.jpg">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aspernatur autem consequuntur facilis
                     magnam
                     placeat possimus similique vel voluptatem voluptatibus! Autem cumque cupiditate molestias mollitia optio
@@ -22,7 +22,7 @@
                     perspiciatis, sunt tenetur voluptas!</p>
             </div>
         </div>
-        <router-link to="/venus" class="oeuvreSlide prev">Oeuvre pécédente</router-link>
+        <router-link to="/joconde" class="oeuvreSlide prev">Oeuvre pécédente</router-link>
         <router-link to="/liberte" class="oeuvreSlide next">Oeuvre suivante</router-link>
 
     </div>

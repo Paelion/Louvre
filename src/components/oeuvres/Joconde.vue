@@ -19,12 +19,12 @@
                     magnam
                     placeat possimus similique vel voluptatem voluptatibus! Autem cumque cupiditate molestias mollitia optio
                     perspiciatis, sunt tenetur voluptas!</p>
-                <img src="https://www.pauline-aelion.fr/img/siteVue/joconde.jpg">
+                <img src="../../../public/img/joconde.jpg">
             </div>
         </div>
 
-        <router-link to="/liberte" class="oeuvreSlide prev">Oeuvre pécédente</router-link>
-        <router-link to="/venus" class="oeuvreSlide next">Oeuvre suivante</router-link>
+        <router-link to="/venus" class="oeuvreSlide prev">Oeuvre pécédente</router-link>
+        <router-link to="/toutankhamon" class="oeuvreSlide next">Oeuvre suivante</router-link>
 
     </div>
 </template>

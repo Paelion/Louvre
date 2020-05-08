@@ -7,6 +7,8 @@ import Joconde from '../components/oeuvres/Joconde.vue'
 import Liberte from '../components/oeuvres/Liberte.vue'
 import Toutankhamon from '../components/oeuvres/Toutankhamon.vue'
 import Venus from '../components/oeuvres/Venus.vue'
+import Scribe from '../components/oeuvres/Scribe.vue'
+import Dentelliere from '../components/oeuvres/Dentelliere.vue'
 import Plan from "../components/Plan";
 
 
@@ -43,6 +45,16 @@ export default new Router({
       path: '/venus',
       name: 'Venus',
       component: Venus
+    },
+    {
+      path: '/scribe',
+      name: 'Scribe',
+      component: Scribe
+    },
+    {
+      path: '/dentelliere',
+      name: 'Dentelliere',
+      component: Dentelliere
     },
     {
       path: '/plan',
