@@ -1,27 +1,31 @@
 <template>
+    <div class="oeuvre--bc">
+        <div class="oeuvre">
+            <section class="parallax">
+                <img src="../../public/img/cielHalo.png" id="ciel"/>
+                <img src="../../public/img/notredame.png" id="notreDame"/>
+                <img src="../../public/img/bat2V.png" id="bat"/>
+                <img src="../../public/img/pyramideV.png" id="pyra"/>
+                <img src="../../public/img/solV.png" id="sol"/>
+                <h2 id="text">Galerie</h2>
+            </section>
+            <div class="oeuvre--wrapper">
+                <OeuvreSingle v-for="(content, index) in contents" :image="content.image" :titre="content.titre"
+                              :oeuvre="content.oeuvre" :key="index"
+                              :index="index"/>
+            </div>
 
-    <div class="oeuvre">
-        <Menu class="menuPyramideOeuvre"/>
-        <h2>Nos oeuvrs phares</h2>
-        <hr>
-        <div class="oeuvre--wrapper">
-            <OeuvreSingle v-for="(content, index) in contents" :image="content.image" :titre="content.titre"
-                          :oeuvre="content.oeuvre" :key="index"
-                          :index="index"/>
         </div>
-
     </div>
 </template>
 
 <script>
     import OeuvreSingle from "./OeuvreSingle";
-    import Menu from "./Menu";
 
     export default {
         name: "Oeuvre",
         components: {
-            OeuvreSingle,
-            Menu
+            OeuvreSingle
         },
         data() {
             return {

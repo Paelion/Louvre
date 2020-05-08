@@ -1,6 +1,5 @@
 <template>
     <div class="oeuvre">
-        <Menu class="menuPyramideOeuvre"/>
 
         <div class="joconde">
             <h2>La Joconde</h2>
@@ -31,13 +30,11 @@
 </template>
 
 <script>
-    import Menu from "../Menu";
+
 
     export default {
         name: 'Joconde',
-        components: {
-            Menu
-        },
+
     }
 </script>
 

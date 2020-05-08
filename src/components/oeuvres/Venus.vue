@@ -1,6 +1,5 @@
 <template>
     <div class="oeuvre">
-        <Menu class="menuPyramideOeuvre"/>
 
         <div class="venus">
             <h2>La Vénus de Milo</h2>
@@ -31,13 +30,11 @@
 </template>
 
 <script>
-    import Menu from "../Menu";
+
 
     export default {
         name: 'Venus',
-        components: {
-            Menu
-        },
+
     }
 </script>
 

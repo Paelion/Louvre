@@ -1,6 +1,5 @@
 <template>
     <div class="oeuvre">
-        <Menu class="menuPyramideOeuvre"/>
 
         <div class="toutankhamon">
             <h2>Le pharaon Toutankhâmon</h2>
@@ -30,13 +29,11 @@
 </template>
 
 <script>
-    import Menu from "../Menu";
+
 
     export default {
         name: 'Toutankhamon',
-        components: {
-            Menu
-        },
+
     }
 </script>
 

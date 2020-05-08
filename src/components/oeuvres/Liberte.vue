@@ -1,6 +1,5 @@
 <template>
     <div class="oeuvre">
-        <Menu class="menuPyramideOeuvre"/>
 
         <div class="liberte">
             <h2>La Liberté guidant le peuple</h2>
@@ -29,13 +28,11 @@
 </template>
 
 <script>
-    import Menu from "../Menu";
+
 
     export default {
         name: 'Liberte',
-        components: {
-            Menu
-        },
+
     }
 </script>
 

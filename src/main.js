@@ -1,8 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
-import * as THREE from '../three/three';
-import router from './router'
-
+import * as THREE from '../public/three/three';
+import router from './router';
 
 
 
@@ -16,20 +15,59 @@ new Vue({
 
 //// JS CLASSIQUE ////
 
+/* MENU */
+
+const menu = document.getElementById("menu-overlay");
+const burger = document.querySelector(".burger");
+const menuItem = document.querySelector(".menuItem");
+const menuItem2 = document.querySelector(".menuItem2");
+const menuItem3 = document.querySelector(".menuItem3");
+
+burger.addEventListener("click", () => {
+  burger.classList.toggle("active"); //toggle = au clic, ajoute ou enleve la class 'active'
+  menu.classList.toggle("active");
+});
+
+
+menuItem.addEventListener("click", () => {
+  burger.classList.toggle("active"); //toggle = au clic, ajoute ou enleve la class 'active'
+  menu.classList.toggle("active");
+});
+menuItem2.addEventListener("click", () => {
+  burger.classList.toggle("active"); //toggle = au clic, ajoute ou enleve la class 'active'
+  menu.classList.toggle("active");
+});
+menuItem3.addEventListener("click", () => {
+  burger.classList.toggle("active"); //toggle = au clic, ajoute ou enleve la class 'active'
+  menu.classList.toggle("active");
+});
 
 
 
 
+/* PARALLAX */
+
+let ciel = document.getElementById("ciel");
+let notreDame = document.getElementById("notreDame");
+let bat = document.getElementById("bat");
+let pyra = document.getElementById("pyra");
+let text = document.getElementById("text");
+
+window.addEventListener("scroll", function () {
+  var value = window.scrollY;
+
+  ciel.style.top = -value * 0.3 + "px";
+  notreDame.style.left = -value * 0.06 + "px";
+  bat.style.top = -value * 0.01 + "px";
+  pyra.style.top = value * 0.04 + "px";
+  text.style.top = value * 1 + "px";
+
+});
 
 
 
 
-
-
-
-
-
-//// OBJ LOADER /////
+//// THREE /////
 
 
 THREE.OBJLoader = function ( manager ) {
@@ -1799,22 +1837,6 @@ scene.add(keyLight);
 scene.add(fillLight);
 scene.add(backLight);
 
-
-
-
-/*var objLoader = new THREE.OBJLoader();
-
-objLoader.load('../public/louvre.obj', function (object){
-  scene.add(object);
-
-  function animate(){
-    requestAnimationFrame(animate);
-
-    object.rotation.y += 0.005;
-  }
-
-  animate();
-});*/
 
 
 function animate(){
