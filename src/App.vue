@@ -30,7 +30,7 @@
 
 <script>
 
-    import Langague from "components/Language";
+    import Langague from "./components/Language";
 
 
     export default {

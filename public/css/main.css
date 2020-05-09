@@ -219,3 +219,15 @@ body {
   margin-top: 20px;
   margin-bottom: 0;
   padding-top: 80px; }
+
+.relative--langue {
+  position: absolute;
+  right: 10px;
+  top: 10px; }
+  .relative--langue button {
+    background-color: transparent;
+    border: none; }
+  .relative--langue .flag {
+    width: 30px; }
+  .relative--langue span {
+    color: white; }

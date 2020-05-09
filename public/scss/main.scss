@@ -337,4 +337,20 @@ body {
 
 }
 
+.relative--langue{
+  position: absolute;
+  right: 10px;
+  top:10px;
+
+  button{
+    background-color: transparent;
+    border: none;
+  }
+  .flag{
+    width: 30px;
+  }
+  span{
+    color: white;
+  }
+}
 

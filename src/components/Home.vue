@@ -4,7 +4,6 @@
             <div class="homeTop--wrapper">
                 <div class="title--wrapper">
                     <h1 class="titleHome">{{ $t('home.titre') }}</h1>
-                    <Language/>
                 </div>
 
             </div>
@@ -27,15 +26,13 @@
 <script>
     //import Menu from "./Menu";
     import Pyramide from "./Pyramide";
-    import Language from "./Language";
 
 
     export default {
         name: 'Home',
         components: {
             //Menu,
-            Pyramide,
-            Language
+            Pyramide
         },
         data() {
             return {}
