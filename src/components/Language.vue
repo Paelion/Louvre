@@ -11,7 +11,7 @@
                 @keydown.down.exact.prevent="startArrowKeys"
         >
             <img :src="`http://www.front-2.devlab-devinci.fr/img/flag_${$i18n.locale}.svg`" alt="flag" class="flag">
-            <span class="ml-2">{{ $i18n.locale.toUpperCase() }}</span>
+            <span class="ml-2 select--lang">{{ $i18n.locale.toUpperCase() }}</span>
             <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="white"><path class="heroicon-ui" d="M15.3 9.3a1 1 0 0 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 1.4-1.4l3.3 3.29 3.3-3.3z"></path></svg>
         </button>
         <transition name="dropdown-fade">
@@ -28,7 +28,7 @@
                             @keydown.esc.exact="hideDropdown"
                     >
                         <img src="../../public/img/flag_en.svg" alt="english flag" class="flag">
-                        <span class="ml-2">EN</span>
+                        <span class="ml-2 lang--select">EN</span>
                     </a>
                 </li>
                 <li>
@@ -43,7 +43,7 @@
                             @keydown.esc.exact="hideDropdown"
                     >
                         <img src="../../public/img/flag_fr.svg" alt="english flag" class="flag">
-                        <span class="ml-2">FR</span>
+                        <span class="ml-2 lang--select">FR</span>
                     </a>
                 </li>
             </ul>
