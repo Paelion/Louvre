@@ -3,32 +3,19 @@
         <div class="homeTop">
             <div class="homeTop--wrapper">
                 <div class="title--wrapper">
-                    <h1 class="titleHome">Musée du Louvre</h1>
+                    <h1 class="titleHome">{{ $t('home.titre') }}</h1>
+                    <Language/>
                 </div>
 
             </div>
         </div>
-        <p class="txt1Home">Au total, plus de 35 000 œuvres !<br>
-            En huit siècles d’existence, le Louvre
-            a été marqué par de nombreux
-            courants architecturaux,
-            de la forteresse médiévale du XIIe
-            siècle à la pyramide de verre de
-            Pei.</p>
+        <p class="txt1Home">{{ $t('home.txt1') }}</p>
         <Pyramide/>
-        <p class="txt2Home">Chaque passage dans la capitale
-            mérite une visite du Louvre, tant
-            le plus grand musée de Paris
-            recèle de trésors. Chaque salle
-            dévoile des chefs-d’oeuvres :
-            La Joconde,
-            le Radeau de la Méduse,
-            la Vénus de Milo…
-        </p>
+        <p class="txt2Home">{{ $t('home.txt2') }}</p>
 
         <div class="arrow">
             <router-link to="/oeuvre" class="home--link">
-                <p>Nos oeuvres</p>
+                <p>{{ $t('home.link') }}</p>
                 <img class="arrowRight" src="../../public/img/right-arrow.png">
             </router-link>
 
@@ -40,13 +27,15 @@
 <script>
     //import Menu from "./Menu";
     import Pyramide from "./Pyramide";
+    import Language from "./Language";
 
 
     export default {
         name: 'Home',
         components: {
             //Menu,
-            Pyramide
+            Pyramide,
+            Language
         },
         data() {
             return {}

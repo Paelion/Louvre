@@ -10,58 +10,74 @@ import Venus from '../components/oeuvres/Venus.vue'
 import Scribe from '../components/oeuvres/Scribe.vue'
 import Dentelliere from '../components/oeuvres/Dentelliere.vue'
 import Plan from "../components/Plan";
+import i18n from "../i18n";
 
 
 Vue.use(Router);
 
 export default new Router({
-  routes: [
-    {
-      path: '/',
-      name: 'Home',
-      component: Home
-    },
-    {
-      path: '/oeuvre',
-      name: 'Oeuvre',
-      component: Oeuvre
-    },
-    {
-      path: '/joconde',
-      name: 'Joconde',
-      component: Joconde
-    },
-    {
-      path: '/liberte',
-      name: 'Liberte',
-      component: Liberte
-    },
-    {
-      path: '/toutankhamon',
-      name: 'Toutankhamon',
-      component: Toutankhamon
-    },
-    {
-      path: '/venus',
-      name: 'Venus',
-      component: Venus
-    },
-    {
-      path: '/scribe',
-      name: 'Scribe',
-      component: Scribe
-    },
-    {
-      path: '/dentelliere',
-      name: 'Dentelliere',
-      component: Dentelliere
-    },
-    {
-      path: '/plan',
-      name: 'Plan',
-      component: Plan
-    }
-  ]
+    routes: [
+        {
+            path: '/',
+            redirect: `/${i18n.locale}`
+        },
+        {
+            path: '/:lang',
+            component: {
+                render(c) {
+                    return c('router-view')
+                }
+            },
+            children:
+                [
+                    {
+                        path: '/',
+                        name: 'Home',
+                        component: Home
+                    },
+                    {
+                        path: 'oeuvre',
+                        name: 'Oeuvre',
+                        component: Oeuvre
+                    },
+                    {
+                        path: 'joconde',
+                        name: 'Joconde',
+                        component: Joconde
+                    },
+                    {
+                        path: 'liberte',
+                        name: 'Liberte',
+                        component: Liberte
+                    },
+                    {
+                        path: 'toutankhamon',
+                        name: 'Toutankhamon',
+                        component: Toutankhamon
+                    },
+                    {
+                        path: 'venus',
+                        name: 'Venus',
+                        component: Venus
+                    },
+                    {
+                        path: 'scribe',
+                        name: 'Scribe',
+                        component: Scribe
+                    },
+                    {
+                        path: 'dentelliere',
+                        name: 'Dentelliere',
+                        component: Dentelliere
+                    },
+                    {
+                        path: 'plan',
+                        name: 'Plan',
+                        component: Plan
+                    }
+                ]
+        }
+    ]
 })
 
 

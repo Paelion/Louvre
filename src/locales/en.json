@@ -1,0 +1,14 @@
+{
+  "message": "hello i18n !!",
+  "nav": {
+    "accueil": "Home",
+    "galerie": "Gallery",
+    "esplanade": "Place"
+  },
+  "home": {
+    "titre": "Louvre Museum",
+    "txt1": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aspernatur autem consequuntur facilis magnam placeat possimus similique vel voluptatem voluptatibus! Autem cumque cupiditate molestias mollitia optio perspiciatis, sunt tenetur voluptas!",
+    "txt2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aspernatur autem consequuntur facilis magnam placeat possimus similique vel voluptatem voluptatibus! Autem cumque cupiditate molestias mollitia optio perspiciatis, sunt tenetur voluptas!",
+    "link": "Our Gallery"
+  }
+}
