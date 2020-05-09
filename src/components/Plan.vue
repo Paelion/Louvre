@@ -8,6 +8,34 @@
             <img src="../../public/img/solV.png" id="sol"/>
             <h2 id="text">L'Esplanade</h2>
         </section>
+
+        <h3>La pyramide</h3>
+        <div class="plan--txt">
+            <img src="../../public/img/pyra1.jpg" class="pyra">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci ducimus enim est hic laudantium,
+                molestiae
+                nihil non odio odit perferendis quam ullam? Culpa maiores nisi saepe soluta, tempora velit voluptatibus.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad amet asperiores deserunt illo inventore
+                ipsam
+                labore modi nemo nostrum nulla, optio placeat porro possimus quidem quos vel veritatis vero
+                voluptate.  labore modi nemo nostrum nulla, optio placeat porro possimus quidem quos vel veritatis vero
+                voluptate</p>
+
+        </div>
+        <h3>La place du carousel</h3>
+        <div class="plan--txt">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci ducimus enim est hic laudantium,
+                molestiae
+                nihil non odio odit perferendis quam ullam? Culpa maiores nisi saepe soluta, tempora velit voluptatibus.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad amet asperiores deserunt illo inventore
+                ipsam
+                labore modi nemo nostrum nulla, optio placeat porro possimus quidem quos vel veritatis vero
+                voluptate.
+                labore modi nemo nostrum nulla, optio placeat porro possimus quidem quos vel veritatis vero
+                voluptate</p>
+            <img src="../../public/img/carousel.jpg" class="carousel">
+        </div>
+
         <h3>Plan du Louvre</h3>
         <img src="../../public/img/plan.svg" class="plan">
     </div>
