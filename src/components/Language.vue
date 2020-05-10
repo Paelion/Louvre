@@ -46,6 +46,36 @@
                         <span class="ml-2 lang--select">FR</span>
                     </a>
                 </li>
+                <li>
+                    <a
+                            href="#"
+                            @click.prevent="setLocale('es')"
+                            class="flex items-center px-3 py-3 hover:bg-gray-200"
+                            @keydown.shift.tab="focusPrevious(false)"
+                            @keydown.up.exact.prevent="focusPrevious(true)"
+                            @keydown.down.exact.prevent=""
+                            @keydown.tab.exact="hideDropdown"
+                            @keydown.esc.exact="hideDropdown"
+                    >
+                        <img src="../../public/img/flag_es.svg" alt="english flag" class="flag">
+                        <span class="ml-2 lang--select">ES</span>
+                    </a>
+                </li>
+                <li>
+                    <a
+                            href="#"
+                            @click.prevent="setLocale('ch')"
+                            class="flex items-center px-3 py-3 hover:bg-gray-200"
+                            @keydown.shift.tab="focusPrevious(false)"
+                            @keydown.up.exact.prevent="focusPrevious(true)"
+                            @keydown.down.exact.prevent=""
+                            @keydown.tab.exact="hideDropdown"
+                            @keydown.esc.exact="hideDropdown"
+                    >
+                        <img src="../../public/img/flag_ch.svg" alt="english flag" class="flag">
+                        <span class="ml-2 lang--select">CH</span>
+                    </a>
+                </li>
             </ul>
         </transition>
     </div>

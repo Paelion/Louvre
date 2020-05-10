@@ -1,50 +1,50 @@
 {
   "message": "bonjour i18n !!",
   "nav": {
-    "accueil": "Accueil",
-    "galerie": "Galerie",
-    "esplanade": "L'esplanade"
+    "accueil": "主页",
+    "galerie": "画廊",
+    "esplanade": "滨江大道"
   },
   "home": {
-    "titre": "Musée du Louvre",
-    "txt1": "Au total, plus de 35 000 œuvres ! En huit siècles d’existence, le Louvre a été marqué par de nombreux courants architecturaux, de la forteresse médiévale du XIIe siècle à la pyramide de verre de Pei.",
-    "txt2": "Chaque passage dans la capitale mérite une visite du Louvre, tant le plus grand musée de Paris recèle de trésors. Chaque salle dévoile des chefs-d’oeuvres : La Joconde, le Radeau de la Méduse, la Vénus de Milo…",
-    "link": "Nos oeuvres"
+    "titre": "卢浮宫博物馆",
+    "txt1": "共计35000多件作品! 卢浮宫在其八百年的历史中，从12世纪的中世纪堡垒到裴氏玻璃金字塔，其建筑潮流不计其数。",
+    "txt2": "每到首都，都值得一游，因为巴黎最大的卢浮宫博物馆里充满了宝藏。每个房间里都有大师级的杰作：《蒙娜丽莎》、《美杜莎之筏》、《维纳斯-德-米罗》......",
+    "link": "我们的作品"
   },
-  "galerie": "Galerie",
+  "galerie": "画廊",
   "plan": {
-    "esplanade": "L'Esplanade",
-    "pyramide": "La pyramide",
+    "esplanade": "滨江大道",
+    "pyramide": "金字塔",
     "txtPyramide": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci ducimus enim est hic laudantium,                molestiae                nihil non odio odit perferendis quam ullam? Culpa maiores nisi saepe soluta, tempora velit voluptatibus.                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad amet asperiores deserunt illo inventore                ipsam                labore modi nemo nostrum nulla, optio placeat porro possimus quidem quos vel veritatis vero                voluptate.  labore modi nemo nostrum nulla, optio placeat porro possimus quidem quos vel veritatis vero                voluptate",
-    "carousel": "La place du carousel",
+    "carousel": "旋转木马的位置",
     "txtCarousel": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci ducimus enim est hic laudantium,                molestiae                nihil non odio odit perferendis quam ullam? Culpa maiores nisi saepe soluta, tempora velit voluptatibus.                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad amet asperiores deserunt illo inventore                ipsam                labore modi nemo nostrum nulla, optio placeat porro possimus quidem quos vel veritatis vero                voluptate.  labore modi nemo nostrum nulla, optio placeat porro possimus quidem quos vel veritatis vero                voluptate",
-    "plan": "Plan du Louvre"
+    "plan": "卢浮宫地图"
   },
   "joconde": {
-    "titre": "La Joconde",
+    "titre": "蒙娜丽莎",
     "contenu": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aspernatur autem consequuntur facilis                    magnam                    placeat possimus similique vel voluptatem voluptatibus! Autem cumque cupiditate molestias mollitia                    optio                    perspiciatis, sunt tenetur voluptas!                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aspernatur autem consequuntur facilis                    magnam                    placeat possimus similique vel voluptatem voluptatibus! Autem cumque cupiditate molestias mollitia                    optio                    perspiciatis, sunt tenetur voluptas!                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aspernatur autem consequuntur facilis                    magnam<br><br>                    placeat possimus similique vel voluptatem voluptatibus! Autem cumque cupiditate molestias mollitia                    optio                    perspiciatis, sunt tenetur voluptas!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet                    aspernatur autem consequuntur facilis                    magnam                    placeat possimus similique vel voluptatem voluptatibus! Autem cumque cupiditate molestias mollitia                    optio                    perspiciatis, sunt tenetur voluptas!"
   },
   "liberte": {
-    "titre": "La Liberté guidant le peuple",
+    "titre": "自由指导人民",
     "contenu": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aspernatur autem consequuntur facilis                    magnam                    placeat possimus similique vel voluptatem voluptatibus! Autem cumque cupiditate molestias mollitia                    optio                    perspiciatis, sunt tenetur voluptas!                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aspernatur autem consequuntur facilis                    magnam                    placeat possimus similique vel voluptatem voluptatibus! Autem cumque cupiditate molestias mollitia                    optio                    perspiciatis, sunt tenetur voluptas!                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aspernatur autem consequuntur facilis                    magnam<br><br>                    placeat possimus similique vel voluptatem voluptatibus! Autem cumque cupiditate molestias mollitia                    optio                    perspiciatis, sunt tenetur voluptas!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet                    aspernatur autem consequuntur facilis                    magnam                    placeat possimus similique vel voluptatem voluptatibus! Autem cumque cupiditate molestias mollitia                    optio                    perspiciatis, sunt tenetur voluptas!"
   },
   "venus": {
-    "titre": "La Vénus de Milo",
+    "titre": "维纳斯-德-米罗号",
     "contenu": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aspernatur autem consequuntur facilis                    magnam                    placeat possimus similique vel voluptatem voluptatibus! Autem cumque cupiditate molestias mollitia                    optio                    perspiciatis, sunt tenetur voluptas!                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aspernatur autem consequuntur facilis                    magnam                    placeat possimus similique vel voluptatem voluptatibus! Autem cumque cupiditate molestias mollitia                    optio                    perspiciatis, sunt tenetur voluptas!                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aspernatur autem consequuntur facilis                    magnam<br><br>                    placeat possimus similique vel voluptatem voluptatibus! Autem cumque cupiditate molestias mollitia                    optio                    perspiciatis, sunt tenetur voluptas!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet                    aspernatur autem consequuntur facilis                    magnam                    placeat possimus similique vel voluptatem voluptatibus! Autem cumque cupiditate molestias mollitia                    optio                    perspiciatis, sunt tenetur voluptas!"
   },
   "phara": {
-    "titre": "Le pharaon Toutankhâmon",
+    "titre": "图坦卡蒙法老",
     "contenu": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aspernatur autem consequuntur facilis                    magnam                    placeat possimus similique vel voluptatem voluptatibus! Autem cumque cupiditate molestias mollitia                    optio                    perspiciatis, sunt tenetur voluptas!                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aspernatur autem consequuntur facilis                    magnam                    placeat possimus similique vel voluptatem voluptatibus! Autem cumque cupiditate molestias mollitia                    optio                    perspiciatis, sunt tenetur voluptas!                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aspernatur autem consequuntur facilis                    magnam<br><br>                    placeat possimus similique vel voluptatem voluptatibus! Autem cumque cupiditate molestias mollitia                    optio                    perspiciatis, sunt tenetur voluptas!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet                    aspernatur autem consequuntur facilis                    magnam                    placeat possimus similique vel voluptatem voluptatibus! Autem cumque cupiditate molestias mollitia                    optio                    perspiciatis, sunt tenetur voluptas!"
   },
   "scribe": {
-    "titre": "Le Scribe accroupi",
+    "titre": "蹲守的文士",
     "contenu": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aspernatur autem consequuntur facilis                    magnam                    placeat possimus similique vel voluptatem voluptatibus! Autem cumque cupiditate molestias mollitia                    optio                    perspiciatis, sunt tenetur voluptas!                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aspernatur autem consequuntur facilis                    magnam                    placeat possimus similique vel voluptatem voluptatibus! Autem cumque cupiditate molestias mollitia                    optio                    perspiciatis, sunt tenetur voluptas!                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aspernatur autem consequuntur facilis                    magnam<br><br>                    placeat possimus similique vel voluptatem voluptatibus! Autem cumque cupiditate molestias mollitia                    optio                    perspiciatis, sunt tenetur voluptas!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet                    aspernatur autem consequuntur facilis                    magnam                    placeat possimus similique vel voluptatem voluptatibus! Autem cumque cupiditate molestias mollitia                    optio                    perspiciatis, sunt tenetur voluptas!"
   },
   "dentelliere": {
-    "titre": "La Dentellière",
+    "titre": "花边工匠",
     "contenu": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aspernatur autem consequuntur facilis                    magnam                    placeat possimus similique vel voluptatem voluptatibus! Autem cumque cupiditate molestias mollitia                    optio                    perspiciatis, sunt tenetur voluptas!                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aspernatur autem consequuntur facilis                    magnam                    placeat possimus similique vel voluptatem voluptatibus! Autem cumque cupiditate molestias mollitia                    optio                    perspiciatis, sunt tenetur voluptas!                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aspernatur autem consequuntur facilis                    magnam<br><br>                    placeat possimus similique vel voluptatem voluptatibus! Autem cumque cupiditate molestias mollitia                    optio                    perspiciatis, sunt tenetur voluptas!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet                    aspernatur autem consequuntur facilis                    magnam                    placeat possimus similique vel voluptatem voluptatibus! Autem cumque cupiditate molestias mollitia                    optio                    perspiciatis, sunt tenetur voluptas!"
   },
-  "next": "Oeuvre suivante",
-  "prev": "Oeuvre pécédente"
+  "next": "接下来的工作",
+  "prev": "前期工作"
 
 }

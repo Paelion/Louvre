@@ -6,25 +6,20 @@ body {
 
 .home {
   height: 100vh;
-  overflow: hidden; }
+  overflow: hidden;
+  display: flex;
+  justify-content: center; }
   .home .homeTop {
     display: flex;
-    padding-bottom: 20px;
-    padding-top: 40px; }
-    .home .homeTop .homeTop--wrapper {
-      position: absolute;
-      display: flex;
-      justify-content: center; }
-      .home .homeTop .homeTop--wrapper .title--wrapper {
-        display: flex;
-        justify-content: center; }
-        .home .homeTop .homeTop--wrapper .title--wrapper .titleHome {
-          position: relative;
-          left: 130%;
-          font-size: 55px;
-          color: white;
-          font-family: "Questa Grande", serif;
-          padding-top: 20px; }
+    justify-content: center;
+    padding-bottom: 80px;
+    padding-top: 50px;
+    position: absolute; }
+    .home .homeTop .titleHome {
+      font-size: 55px;
+      color: white;
+      font-family: "Questa Grande", serif;
+      padding-top: 20px; }
   .home .menuPyramide {
     position: absolute;
     top: 0;
@@ -49,6 +44,8 @@ body {
       height: 30px; }
     .home .arrow .home--link {
       text-decoration: none; }
+  .home .pyramide--wrapper {
+    padding-top: 60px; }
   .home .txt1Home, .home .txt2Home {
     color: #BFBFBF;
     font-size: 20px;
