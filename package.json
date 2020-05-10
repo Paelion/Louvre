@@ -10,6 +10,7 @@
     "sass": "node-sass -w public/scss/ -o public/css/ --recursive"
   },
   "dependencies": {
+    "comparify": "^0.2.0",
     "core-js": "^3.6.4",
     "eslint-config-mdcs": "^4.2.3",
     "eslint-loader": "^2.1.2",

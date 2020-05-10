@@ -36,6 +36,7 @@ const burger = document.querySelector(".burger");
 const menuItem = document.querySelector(".menuItem");
 const menuItem2 = document.querySelector(".menuItem2");
 const menuItem3 = document.querySelector(".menuItem3");
+const menuItem4 = document.querySelector(".menuItem4");
 
 burger.addEventListener("click", () => {
   burger.classList.toggle("active"); //toggle = au clic, ajoute ou enleve la class 'active'
@@ -52,6 +53,10 @@ menuItem2.addEventListener("click", () => {
   menu.classList.toggle("active");
 });
 menuItem3.addEventListener("click", () => {
+  burger.classList.toggle("active"); //toggle = au clic, ajoute ou enleve la class 'active'
+  menu.classList.toggle("active");
+});
+menuItem4.addEventListener("click", () => {
   burger.classList.toggle("active"); //toggle = au clic, ajoute ou enleve la class 'active'
   menu.classList.toggle("active");
 });
@@ -77,6 +82,23 @@ window.addEventListener("scroll", function () {
   text.style.top = value * 1 + "px";
 
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1794,7 +1816,7 @@ Object.defineProperties( THREE.OrbitControls.prototype, {
 
 
 var scene = new THREE.Scene();
-scene.background = new THREE.Color(0x2E2B30);
+scene.background = new THREE.Color(0x131010);
 
 
 var camera = new THREE.PerspectiveCamera(45,

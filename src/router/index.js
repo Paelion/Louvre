@@ -11,6 +11,9 @@ import Scribe from '../components/oeuvres/Scribe.vue'
 import Dentelliere from '../components/oeuvres/Dentelliere.vue'
 import Plan from "../components/Plan";
 import i18n from "../i18n";
+import Musees from "../components/Musees";
+import Lens from "../components/Lens";
+import Ad from "../components/Ad";
 
 
 Vue.use(Router);
@@ -74,6 +77,21 @@ export default new Router({
                         path: 'plan',
                         name: 'Plan',
                         component: Plan
+                    },
+                    {
+                        path: 'musees',
+                        name: 'Musees',
+                        component: Musees
+                    },
+                    {
+                        path: 'lens',
+                        name: 'Lens',
+                        component: Lens
+                    },
+                    {
+                        path: 'ad',
+                        name: 'Ad',
+                        component: Ad
                     }
                 ]
         }
