@@ -218,6 +218,7 @@ body {
   padding-top: 80px; }
 
 .relative--langue {
+  z-index: 3;
   position: absolute;
   top: 20px;
   right: 40px;
@@ -338,7 +339,7 @@ body {
     font-family: Avenir, sans-serif; }
   .lensPage .lens--txt .arrow {
     position: absolute;
-    top: 65%;
+    top: 70%;
     right: 15%; }
     .lensPage .lens--txt .arrow:hover {
       transform: translateX(80px);
@@ -391,7 +392,7 @@ body {
     font-family: Avenir, sans-serif; }
   .adPage .ad--txt .arrow {
     position: absolute;
-    top: 65%;
+    top: 70%;
     right: 15%; }
     .adPage .ad--txt .arrow:hover {
       transform: translateX(80px);

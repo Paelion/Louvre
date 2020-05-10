@@ -3,7 +3,8 @@
   "nav": {
     "accueil": "Inicio",
     "galerie": "Galería",
-    "esplanade": "La explanada"
+    "esplanade": "La explanada",
+    "musees": "Museos"
   },
   "home": {
     "titre": "Museo del Louvre",
@@ -45,6 +46,20 @@
     "contenu": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aspernatur autem consequuntur facilis                    magnam                    placeat possimus similique vel voluptatem voluptatibus! Autem cumque cupiditate molestias mollitia                    optio                    perspiciatis, sunt tenetur voluptas!                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aspernatur autem consequuntur facilis                    magnam                    placeat possimus similique vel voluptatem voluptatibus! Autem cumque cupiditate molestias mollitia                    optio                    perspiciatis, sunt tenetur voluptas!                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aspernatur autem consequuntur facilis                    magnam<br><br>                    placeat possimus similique vel voluptatem voluptatibus! Autem cumque cupiditate molestias mollitia                    optio                    perspiciatis, sunt tenetur voluptas!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet                    aspernatur autem consequuntur facilis                    magnam                    placeat possimus similique vel voluptatem voluptatibus! Autem cumque cupiditate molestias mollitia                    optio                    perspiciatis, sunt tenetur voluptas!"
   },
   "next": "Próximo trabajo",
-  "prev": "Trabajo anterior"
-
+  "prev": "Trabajo anterior",
+  "musees": {
+    "titre": "Nuestros diferentes museos",
+    "lens": "Museo de Lens",
+    "ad": "Museo de Abu Dhabi"
+  },
+  "ad": {
+    "titre": "Museo del Louvre de Abu Dhabi",
+    "contenu": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci ducimus enim est hic laudantium,                molestiae                nihil non odio odit perferendis quam ullam? Culpa maiores nisi saepe soluta, tempora velit voluptatibus.                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad amet asperiores deserunt illo inventore                ipsam                labore modi nemo nostrum nulla, optio placeat porro possimus quidem quos vel veritatis vero                voluptate.  labore modi nemo nostrum nulla, optio placeat porro possimus quidem quos vel veritatis vero                voluptate",
+    "link": "Vea el sitio"
+  },
+  "lens": {
+    "titre": "Museo del Louvre de Lens",
+    "contenu": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci ducimus enim est hic laudantium,                molestiae                nihil non odio odit perferendis quam ullam? Culpa maiores nisi saepe soluta, tempora velit voluptatibus.                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad amet asperiores deserunt illo inventore                ipsam                labore modi nemo nostrum nulla, optio placeat porro possimus quidem quos vel veritatis vero                voluptate.  labore modi nemo nostrum nulla, optio placeat porro possimus quidem quos vel veritatis vero                voluptate",
+    "link": "Vea el sitio"
+  }
 }

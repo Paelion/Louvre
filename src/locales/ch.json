@@ -3,7 +3,8 @@
   "nav": {
     "accueil": "主页",
     "galerie": "画廊",
-    "esplanade": "滨江大道"
+    "esplanade": "滨江大道",
+    "musees": "博物馆"
   },
   "home": {
     "titre": "卢浮宫博物馆",
@@ -45,6 +46,20 @@
     "contenu": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aspernatur autem consequuntur facilis                    magnam                    placeat possimus similique vel voluptatem voluptatibus! Autem cumque cupiditate molestias mollitia                    optio                    perspiciatis, sunt tenetur voluptas!                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aspernatur autem consequuntur facilis                    magnam                    placeat possimus similique vel voluptatem voluptatibus! Autem cumque cupiditate molestias mollitia                    optio                    perspiciatis, sunt tenetur voluptas!                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aspernatur autem consequuntur facilis                    magnam<br><br>                    placeat possimus similique vel voluptatem voluptatibus! Autem cumque cupiditate molestias mollitia                    optio                    perspiciatis, sunt tenetur voluptas!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet                    aspernatur autem consequuntur facilis                    magnam                    placeat possimus similique vel voluptatem voluptatibus! Autem cumque cupiditate molestias mollitia                    optio                    perspiciatis, sunt tenetur voluptas!"
   },
   "next": "接下来的工作",
-  "prev": "前期工作"
-
+  "prev": "前期工作",
+  "musees": {
+    "titre": "我们不同的博物馆",
+    "lens": "镜头博物馆",
+    "ad": "阿布扎比博物馆"
+  },
+  "ad": {
+    "titre": "阿布扎比卢浮宫博物馆",
+    "contenu": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci ducimus enim est hic laudantium,                molestiae                nihil non odio odit perferendis quam ullam? Culpa maiores nisi saepe soluta, tempora velit voluptatibus.                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad amet asperiores deserunt illo inventore                ipsam                labore modi nemo nostrum nulla, optio placeat porro possimus quidem quos vel veritatis vero                voluptate.  labore modi nemo nostrum nulla, optio placeat porro possimus quidem quos vel veritatis vero                voluptate",
+    "link": "查看网站"
+  },
+  "lens": {
+    "titre": "卢浮宫博物馆镜头",
+    "contenu": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci ducimus enim est hic laudantium,                molestiae                nihil non odio odit perferendis quam ullam? Culpa maiores nisi saepe soluta, tempora velit voluptatibus.                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad amet asperiores deserunt illo inventore                ipsam                labore modi nemo nostrum nulla, optio placeat porro possimus quidem quos vel veritatis vero                voluptate.  labore modi nemo nostrum nulla, optio placeat porro possimus quidem quos vel veritatis vero                voluptate",
+    "link": "查看网站"
+  }
 }

@@ -1,20 +1,13 @@
 <template>
     <div class="adPage">
-        <h3>Musée du Louvre Abu Dhabi</h3>
+        <h3>{{ $t('ad.titre') }}</h3>
 
         <div class="ad--txt">
             <img src="../../public/img/louvreAD2.jpg" class="ad--img">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aperiam culpa deserunt distinctio
-                dolorem,
-                fuga harum hic illo libero neque quae, quas quis soluta. Consequuntur enim excepturi expedita iusto
-                quidem! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate dicta est, illo maiores
-                non
-                numquam quisquam vero. Adipisci deserunt hic incidunt, ipsam labore nostrum quis, quisquam, ratione
-                unde
-                voluptas voluptatem</p>
+            <p>{{ $t('ad.contenu') }}</p>
             <div class="arrow">
                 <a href="https://www.louvre.fr/louvre-abu-dhabi"  class="site--link">
-                    <h4>Voir le site</h4>
+                    <h4>{{ $t('ad.link') }}</h4>
                     <img class="arrowRight" src="../../public/img/right-arrow.png">
                 </a>
 

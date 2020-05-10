@@ -335,6 +335,7 @@ body {
 }
 
 .relative--langue {
+  z-index: 3;
   position: absolute;
   top: 20px;
   right: 40px;
@@ -508,7 +509,7 @@ body {
 
     .arrow {
       position: absolute;
-      top:65%;
+      top:70%;
       right: 15%;
 
       &:hover{
@@ -582,7 +583,7 @@ body {
 
     .arrow {
       position: absolute;
-      top:65%;
+      top:70%;
       right: 15%;
 
       &:hover{

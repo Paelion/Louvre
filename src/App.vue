@@ -18,7 +18,7 @@
                         <router-link :to="`/${$i18n.locale}/plan`" class="menu--link">{{ $t('nav.esplanade') }}</router-link>
                     </li>
                     <li class="menuItem4">
-                        <router-link :to="`/${$i18n.locale}/musees`" class="menu--link">Musées</router-link>
+                        <router-link :to="`/${$i18n.locale}/musees`" class="menu--link">{{ $t('nav.musees') }}</router-link>
                     </li>
                 </ul>
             </div>
