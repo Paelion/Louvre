@@ -189,7 +189,7 @@ section img {
     width: 25%;
     height: 2px;
     background-color: white;
-    transition: transform 0.5s ease-in-out;
+    transition: 0.4s;
 }
 
 .burger .animP {
@@ -199,7 +199,7 @@ section img {
     display: block;
     position: absolute;
     transform: translateY(-50%);
-    transition: background-color 0.5s ease-in-out;
+    transition: 0.4s;
 }
 
 .burger .animP::after {
@@ -209,7 +209,7 @@ section img {
     width: 160%;
     height: 2px;
     background-color: white;
-    transition: transform 0.5s ease-in-out;
+    transition: 0.4s;
 }
 
 .burger .animP::before {
@@ -221,19 +221,26 @@ section img {
     transform: translateY(10px);
 }
 
-.burger.active .animP {
+
+.burger.change .animP {
     background-color: transparent; /* lien click active en JS*/
 }
 
-.burger.active .animP::before {
-    transform: translateY(0px) rotateZ(45deg);
+.burger.change .animP::before {
+    transform: rotate(45deg) translate(-8px, -8px);
+    margin-left: -15px;
+    margin-top: 12px;
+    width: 40px;
 }
 
-.burger.active .animP::after {
+.burger.change .animP::after {
     transform: translateY(0px) rotateZ(-45deg);
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 40px;
 }
 
-/*---------------------------------------------------MENU PYRAMIDE---------------------------------------------------------*/
+/*---------------------------------------------------AUDIOGUIDE---------------------------------------------------------*/
 
 
 
