@@ -49,7 +49,7 @@ body {
     left: 40px;
 
     &:hover {
-      transform:  translateX(20px);
+      transform: translateX(20px);
       transition: 0.5s;
     }
 
@@ -60,6 +60,29 @@ body {
       font-size: 18px;
       font-weight: bold;
       color: $txt-color;
+    }
+
+    .txt1Home, .txt2Home {
+      opacity: 0;
+      color: #BFBFBF;
+      font-size: 20px;
+      width: 320px;
+      text-align: justify;
+      font-family: Avenir, sans-serif;
+      transform: translateY(20px);
+    }
+
+    .txt1Home {
+      transition: 10s all ease-in-out;
+    }
+
+    .txt2Home {
+      transition: 3s all ease-in-out;
+    }
+
+    .text-appear {
+      opacity: 1;
+      transform: translateY(0px);
     }
 
     .arrowRight {
@@ -193,6 +216,8 @@ body {
 
 
 .joconde, .venus, .toutankhamon, .liberte, .scribe, .dentelliere {
+  height: 80vh;
+
   h2 {
     font-family: $fontAS;
     font-size: 50px;
@@ -218,6 +243,7 @@ body {
 }
 
 .liberte {
+  height: 80vh;
 
   .liberte--wrapper {
 
@@ -291,10 +317,24 @@ body {
 
 .plan--wrapper {
   .plan {
+    opacity: 0;
     height: 500px;
     width: auto;
     filter: grayscale(100%);
     margin: 80px 0 50px 15%;
+    transition: 1s all ease-in-out;
+  }
+
+  .pyramide--plan, .carousel--plan {
+    opacity: 0;
+    color: #BFBFBF;
+    transform: translateY(20px);
+    transition: 1s all ease-in-out;
+  }
+
+  .text-appear {
+    opacity: 1;
+    transform: translateY(0px);
   }
 
   .plan--txt {
@@ -666,6 +706,7 @@ body {
     .audio--wrapper {
       display: block;
       width: 40%;
+
       p {
         margin-top: 80px;
         color: $txt-color;
@@ -692,7 +733,7 @@ body {
     }
   }
 
-  .audioSlide{
+  .audioSlide {
     position: absolute;
     text-decoration: none;
     color: $txt-color;
@@ -733,6 +774,7 @@ body {
     .video--wrapper {
       display: block;
       width: 40%;
+
       p {
         margin-top: 80px;
         color: $txt-color;
@@ -759,7 +801,7 @@ body {
     }
   }
 
-  .videoSlide{
+  .videoSlide {
     position: absolute;
     text-decoration: none;
     color: $txt-color;
@@ -812,6 +854,7 @@ body {
     .appli--wrapper {
       display: block;
       width: 40%;
+
       p {
         margin-top: 80px;
         color: $txt-color;
@@ -838,7 +881,7 @@ body {
     }
   }
 
-  .appliSlide{
+  .appliSlide {
     position: absolute;
     text-decoration: none;
     color: $txt-color;

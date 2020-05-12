@@ -3,7 +3,7 @@ import App from './App.vue'
 import * as THREE from '../public/three/three';
 import router from './router';
 import i18n from './i18n'
-
+import $ from '../jquery'
 
 
 Vue.config.productionTip = false;
@@ -40,29 +40,29 @@ const menuItem4 = document.querySelector(".menuItem4");
 const menuItem5 = document.querySelector(".menuItem5");
 
 burger.addEventListener("click", () => {
-  burger.classList.toggle("active"); //toggle = au clic, ajoute ou enleve la class 'active'
+  burger.classList.toggle("change"); //toggle = au clic, ajoute ou enleve la class 'active'
   menu.classList.toggle("active");
 });
 
 
 menuItem.addEventListener("click", () => {
-  burger.classList.toggle("active"); //toggle = au clic, ajoute ou enleve la class 'active'
+  burger.classList.toggle("change"); //toggle = au clic, ajoute ou enleve la class 'active'
   menu.classList.toggle("active");
 });
 menuItem2.addEventListener("click", () => {
-  burger.classList.toggle("active"); //toggle = au clic, ajoute ou enleve la class 'active'
+  burger.classList.toggle("change"); //toggle = au clic, ajoute ou enleve la class 'active'
   menu.classList.toggle("active");
 });
 menuItem3.addEventListener("click", () => {
-  burger.classList.toggle("active"); //toggle = au clic, ajoute ou enleve la class 'active'
+  burger.classList.toggle("change"); //toggle = au clic, ajoute ou enleve la class 'active'
   menu.classList.toggle("active");
 });
 menuItem4.addEventListener("click", () => {
-  burger.classList.toggle("active"); //toggle = au clic, ajoute ou enleve la class 'active'
+  burger.classList.toggle("change"); //toggle = au clic, ajoute ou enleve la class 'active'
   menu.classList.toggle("active");
 });
 menuItem5.addEventListener("click", () => {
-  burger.classList.toggle("active"); //toggle = au clic, ajoute ou enleve la class 'active'
+  burger.classList.toggle("change"); //toggle = au clic, ajoute ou enleve la class 'active'
   menu.classList.toggle("active");
 });
 
@@ -90,17 +90,70 @@ window.addEventListener("scroll", function () {
 
 
 
+/* SCROLL */
+
+function scrollAppear(){
+  var pyramide=document.querySelector('.pyramide--plan');
+  var carousel=document.querySelector('.carousel--plan');
+  var plan=document.querySelector('.plan');
+  var pyramidePosition=pyramide.getBoundingClientRect().top;
+  var carouselPosition=carousel.getBoundingClientRect().top;
+  var planPosition=plan.getBoundingClientRect().top;
+  var screenPosition= window.innerHeight / 1.1;
+  var screenPosition2= window.innerHeight / 1.1;
+  var screenPosition3= window.innerHeight / 1.1;
+
+  if(pyramidePosition < screenPosition){
+    pyramide.classList.add('text-appear');
+  }
+
+  if(carouselPosition < screenPosition2){
+    carousel.classList.add('text-appear');
+  }
+
+  if(planPosition < screenPosition3){
+    plan.classList.add('text-appear');
+  }
+
+}
+window.addEventListener('scroll', scrollAppear);
 
 
 
+$('.txt1Home').hide();
+$('.txt2Home').hide();
+$('.txt2Home').delay(600).fadeIn(500);
+$('.txt1Home').delay(1000).fadeIn(500);
+
+
+$('.liberte--wrapper').hide();
+$('.liberte--wrapper').delay(600).fadeIn(500);
+
+$('.scribe--wrapper').hide();
+$('.scribe--wrapper').delay(600).fadeIn(500);
+
+$('.dentelliere--wrapper').hide();
+$('.dentelliere--wrapper').delay(600).fadeIn(500);
+
+$('.joconde--wrapper').hide();
+$('.joconde--wrapper').delay(600).fadeIn(500);
+
+$('.toutankhamon--wrapper').hide();
+$('.toutankhamon--wrapper').delay(600).fadeIn(500);
+
+$('.venus--wrapper').hide();
+$('.venus--wrapper').delay(600).fadeIn(500);
 
 
 
+$('.audio--txt').hide();
+$('.audio--txt').delay(600).fadeIn(700);
 
+$('.appli--txt').hide();
+$('.appli--txt').delay(600).fadeIn(700);
 
-
-
-
+$('.video--txt').hide();
+$('.video--txt').delay(600).fadeIn(700);
 
 
 
