@@ -14,6 +14,10 @@ import i18n from "../i18n";
 import Musees from "../components/Musees";
 import Lens from "../components/Lens";
 import Ad from "../components/Ad";
+import Audioguide from "../components/Audioguide";
+import AudioG from "../components/guide/AudioG";
+import Video from "../components/guide/Video";
+import Appli from "../components/guide/Appli";
 
 
 Vue.use(Router);
@@ -92,6 +96,26 @@ export default new Router({
                         path: 'ad',
                         name: 'Ad',
                         component: Ad
+                    },
+                    {
+                        path: 'audioguide',
+                        name: 'Audioguide',
+                        component: Audioguide
+                    },
+                    {
+                        path: 'audio',
+                        name: 'AudioG',
+                        component: AudioG
+                    },
+                    {
+                        path: 'video',
+                        name: 'Video',
+                        component: Video
+                    },
+                    {
+                        path: 'appli',
+                        name: 'Appli',
+                        component: Appli
                     }
                 ]
         }

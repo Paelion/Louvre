@@ -4,7 +4,8 @@
     "accueil": "主页",
     "galerie": "画廊",
     "esplanade": "滨江大道",
-    "musees": "博物馆"
+    "musees": "博物馆",
+    "audioguide": "听力指南"
   },
   "home": {
     "titre": "卢浮宫博物馆",
@@ -61,5 +62,24 @@
     "titre": "卢浮宫博物馆镜头",
     "contenu": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci ducimus enim est hic laudantium,                molestiae                nihil non odio odit perferendis quam ullam? Culpa maiores nisi saepe soluta, tempora velit voluptatibus.                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad amet asperiores deserunt illo inventore                ipsam                labore modi nemo nostrum nulla, optio placeat porro possimus quidem quos vel veritatis vero                voluptate.  labore modi nemo nostrum nulla, optio placeat porro possimus quidem quos vel veritatis vero                voluptate",
     "link": "查看网站"
+  },
+  "audio": {
+    "titre": "音频指南",
+    "contenu": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci ducimus enim est hic laudantium,                molestiae                nihil non odio odit perferendis quam ullam? Culpa maiores nisi saepe soluta, tempora velit voluptatibus.                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad amet asperiores deserunt illo inventore                ipsam                labore modi nemo nostrum nulla, optio placeat porro possimus quidem quos vel veritatis vero                voluptate.  labore modi nemo nostrum nulla, optio placeat porro possimus quidem quos vel veritatis vero                voluptate",
+    "next": "视频指南",
+    "prix": "获奖情况"
+  },
+  "video": {
+    "titre": "视频指南",
+    "contenu": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci ducimus enim est hic laudantium,                molestiae                nihil non odio odit perferendis quam ullam? Culpa maiores nisi saepe soluta, tempora velit voluptatibus.                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad amet asperiores deserunt illo inventore                ipsam                labore modi nemo nostrum nulla, optio placeat porro possimus quidem quos vel veritatis vero                voluptate.  labore modi nemo nostrum nulla, optio placeat porro possimus quidem quos vel veritatis vero                voluptate",
+    "next": "应用指南",
+    "prev": "音频指南",
+    "prix": "获奖情况"
+  },
+  "appli": {
+    "titre": "应用指南",
+    "contenu": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci ducimus enim est hic laudantium,                molestiae                nihil non odio odit perferendis quam ullam? Culpa maiores nisi saepe soluta, tempora velit voluptatibus.                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad amet asperiores deserunt illo inventore                ipsam                labore modi nemo nostrum nulla, optio placeat porro possimus quidem quos vel veritatis vero                voluptate.  labore modi nemo nostrum nulla, optio placeat porro possimus quidem quos vel veritatis vero                voluptate",
+    "prev": "视频指南",
+    "prix": "获奖情况"
   }
 }

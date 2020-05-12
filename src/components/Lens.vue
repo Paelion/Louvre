@@ -6,7 +6,7 @@
             <img src="../../public/img/louvreLens2.jpg" class="lens--img">
             <p>{{ $t('lens.contenu') }}</p>
             <div class="arrow">
-                <a href="https://www.louvrelens.fr/"  class="site--link">
+                <a href="https://www.louvrelens.fr/" target="_blank" class="site--link">
                     <h4>{{ $t('lens.link') }}</h4>
                     <img class="arrowRight" src="../../public/img/right-arrow.png">
                 </a>

@@ -6,7 +6,7 @@
             <img src="../../public/img/louvreAD2.jpg" class="ad--img">
             <p>{{ $t('ad.contenu') }}</p>
             <div class="arrow">
-                <a href="https://www.louvre.fr/louvre-abu-dhabi"  class="site--link">
+                <a href="https://www.louvre.fr/louvre-abu-dhabi" target="_blank"  class="site--link">
                     <h4>{{ $t('ad.link') }}</h4>
                     <img class="arrowRight" src="../../public/img/right-arrow.png">
                 </a>

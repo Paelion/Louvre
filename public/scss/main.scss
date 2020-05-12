@@ -7,6 +7,7 @@ $fontAS: "Questa Grande", serif;
 
 html {
   background: $bc-color;
+  //cursor: url(http://www.front-2.devlab-devinci.fr/img/cursor.png), pointer;
 }
 
 body {
@@ -39,6 +40,7 @@ body {
     position: absolute;
     top: 0;
     left: 40px;
+    cursor: pointer;
   }
 
   .arrow {
@@ -47,7 +49,7 @@ body {
     left: 40px;
 
     &:hover {
-      transform: translateX(80px);
+      transform:  translateX(20px);
       transition: 0.5s;
     }
 
@@ -509,11 +511,11 @@ body {
 
     .arrow {
       position: absolute;
-      top:70%;
+      top: 70%;
       right: 15%;
 
-      &:hover{
-        transform: translateX(80px);
+      &:hover {
+        transform: translateX(20px);
         transition: 0.5s;
       }
 
@@ -538,7 +540,8 @@ body {
       }
     }
   }
-  .lensMap{
+
+  .lensMap {
     position: absolute;
     height: 550px;
     width: auto;
@@ -583,11 +586,11 @@ body {
 
     .arrow {
       position: absolute;
-      top:70%;
+      top: 70%;
       right: 15%;
 
-      &:hover{
-        transform: translateX(80px);
+      &:hover {
+        transform: translateX(20px);
         transition: 0.5s;
       }
 
@@ -612,7 +615,8 @@ body {
       }
     }
   }
-  .adMap{
+
+  .adMap {
     position: absolute;
     height: 550px;
     width: auto;
@@ -622,4 +626,238 @@ body {
     padding-top: 30px;
   }
 }
+
+.audioguide {
+  h3 {
+    font-family: $fontAS;
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    color: $txt-color;
+    padding-top: 60px;
+  }
+
+  .container--audioguide {
+    padding-top: 18vh;
+  }
+
+  .guide--link {
+    text-decoration: none;
+  }
+}
+
+.audioPage {
+
+  h3 {
+    font-family: $fontAS;
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    color: $txt-color;
+    padding-top: 60px;
+  }
+
+  .audio--txt {
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 80px 0 100px 0;
+
+    .audio--wrapper {
+      display: block;
+      width: 40%;
+      p {
+        margin-top: 80px;
+        color: $txt-color;
+        font-size: 18px;
+        text-align: justify;
+        font-family: $fontSS;
+      }
+
+
+      h4 {
+        font-family: $fontSS;
+        text-transform: uppercase;
+        font-size: 18px;
+        font-weight: bold;
+        color: $txt-color;
+        padding-top: 30px;
+      }
+    }
+
+    .audio--img {
+      height: 400px;
+      width: auto;
+      filter: grayscale(100%);
+    }
+  }
+
+  .audioSlide{
+    position: absolute;
+    text-decoration: none;
+    color: $txt-color;
+    font-weight: bold;
+    font-size: 21px;
+    font-family: $fontSS;
+  }
+
+  .next {
+    right: 80px;
+    bottom: 30px;
+
+    &:hover {
+      color: white;
+      transform: scale(1.1);
+      transition: 0.5s;
+    }
+  }
+}
+
+.videoPage {
+
+  h3 {
+    font-family: $fontAS;
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    color: $txt-color;
+    padding-top: 60px;
+  }
+
+  .video--txt {
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 80px 0 100px 0;
+
+    .video--wrapper {
+      display: block;
+      width: 40%;
+      p {
+        margin-top: 80px;
+        color: $txt-color;
+        font-size: 18px;
+        text-align: justify;
+        font-family: $fontSS;
+      }
+
+
+      h4 {
+        font-family: $fontSS;
+        text-transform: uppercase;
+        font-size: 18px;
+        font-weight: bold;
+        color: $txt-color;
+        padding-top: 30px;
+      }
+    }
+
+    .video--img {
+      height: 400px;
+      width: auto;
+      filter: grayscale(100%);
+    }
+  }
+
+  .videoSlide{
+    position: absolute;
+    text-decoration: none;
+    color: $txt-color;
+    font-weight: bold;
+    font-size: 21px;
+    font-family: $fontSS;
+  }
+
+  .prev {
+    left: 80px;
+    bottom: 30px;
+
+    &:hover {
+      color: white;
+      transform: scale(1.1);
+      transition: 0.5s;
+    }
+  }
+
+  .next {
+    right: 80px;
+    bottom: 30px;
+
+    &:hover {
+      color: white;
+      transform: scale(1.1);
+      transition: 0.5s;
+    }
+  }
+}
+
+
+.appliPage {
+
+  h3 {
+    font-family: $fontAS;
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    color: $txt-color;
+    padding-top: 60px;
+  }
+
+  .appli--txt {
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 80px 0 100px 0;
+
+    .appli--wrapper {
+      display: block;
+      width: 40%;
+      p {
+        margin-top: 80px;
+        color: $txt-color;
+        font-size: 18px;
+        text-align: justify;
+        font-family: $fontSS;
+      }
+
+
+      h4 {
+        font-family: $fontSS;
+        text-transform: uppercase;
+        font-size: 18px;
+        font-weight: bold;
+        color: $txt-color;
+        padding-top: 30px;
+      }
+    }
+
+    .appli--img {
+      height: 400px;
+      width: auto;
+      filter: grayscale(100%);
+    }
+  }
+
+  .appliSlide{
+    position: absolute;
+    text-decoration: none;
+    color: $txt-color;
+    font-weight: bold;
+    font-size: 21px;
+    font-family: $fontSS;
+  }
+
+  .prev {
+    left: 80px;
+    bottom: 30px;
+
+    &:hover {
+      color: white;
+      transform: scale(1.1);
+      transition: 0.5s;
+    }
+  }
+}
+
+
 

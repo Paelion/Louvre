@@ -37,6 +37,7 @@ const menuItem = document.querySelector(".menuItem");
 const menuItem2 = document.querySelector(".menuItem2");
 const menuItem3 = document.querySelector(".menuItem3");
 const menuItem4 = document.querySelector(".menuItem4");
+const menuItem5 = document.querySelector(".menuItem5");
 
 burger.addEventListener("click", () => {
   burger.classList.toggle("active"); //toggle = au clic, ajoute ou enleve la class 'active'
@@ -57,6 +58,10 @@ menuItem3.addEventListener("click", () => {
   menu.classList.toggle("active");
 });
 menuItem4.addEventListener("click", () => {
+  burger.classList.toggle("active"); //toggle = au clic, ajoute ou enleve la class 'active'
+  menu.classList.toggle("active");
+});
+menuItem5.addEventListener("click", () => {
   burger.classList.toggle("active"); //toggle = au clic, ajoute ou enleve la class 'active'
   menu.classList.toggle("active");
 });

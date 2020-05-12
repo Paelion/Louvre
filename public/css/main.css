@@ -23,13 +23,14 @@ body {
   .home .menuPyramide {
     position: absolute;
     top: 0;
-    left: 40px; }
+    left: 40px;
+    cursor: pointer; }
   .home .arrow {
     position: absolute;
     bottom: 5%;
     left: 40px; }
     .home .arrow:hover {
-      transform: translateX(80px);
+      transform: translateX(20px);
       transition: 0.5s; }
     .home .arrow p {
       font-family: Avenir, sans-serif;
@@ -342,7 +343,7 @@ body {
     top: 70%;
     right: 15%; }
     .lensPage .lens--txt .arrow:hover {
-      transform: translateX(80px);
+      transform: translateX(20px);
       transition: 0.5s; }
     .lensPage .lens--txt .arrow h4 {
       font-family: Avenir, sans-serif;
@@ -395,7 +396,7 @@ body {
     top: 70%;
     right: 15%; }
     .adPage .ad--txt .arrow:hover {
-      transform: translateX(80px);
+      transform: translateX(20px);
       transition: 0.5s; }
     .adPage .ad--txt .arrow h4 {
       font-family: Avenir, sans-serif;
@@ -419,3 +420,175 @@ body {
   transform: translate(-50%);
   padding-bottom: 80px;
   padding-top: 30px; }
+
+.audioguide h3 {
+  font-family: "Questa Grande", serif;
+  display: flex;
+  justify-content: center;
+  font-size: 45px;
+  color: #BFBFBF;
+  padding-top: 60px; }
+
+.audioguide .container--audioguide {
+  padding-top: 18vh; }
+
+.audioguide .guide--link {
+  text-decoration: none; }
+
+.audioPage h3 {
+  font-family: "Questa Grande", serif;
+  display: flex;
+  justify-content: center;
+  font-size: 45px;
+  color: #BFBFBF;
+  padding-top: 60px; }
+
+.audioPage .audio--txt {
+  padding-top: 80px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 80px 0 100px 0; }
+  .audioPage .audio--txt .audio--wrapper {
+    display: block;
+    width: 40%; }
+    .audioPage .audio--txt .audio--wrapper p {
+      margin-top: 80px;
+      color: #BFBFBF;
+      font-size: 18px;
+      text-align: justify;
+      font-family: Avenir, sans-serif; }
+    .audioPage .audio--txt .audio--wrapper h4 {
+      font-family: Avenir, sans-serif;
+      text-transform: uppercase;
+      font-size: 18px;
+      font-weight: bold;
+      color: #BFBFBF;
+      padding-top: 30px; }
+  .audioPage .audio--txt .audio--img {
+    height: 400px;
+    width: auto;
+    filter: grayscale(100%); }
+
+.audioPage .audioSlide {
+  position: absolute;
+  text-decoration: none;
+  color: #BFBFBF;
+  font-weight: bold;
+  font-size: 21px;
+  font-family: Avenir, sans-serif; }
+
+.audioPage .next {
+  right: 80px;
+  bottom: 30px; }
+  .audioPage .next:hover {
+    color: white;
+    transform: scale(1.1);
+    transition: 0.5s; }
+
+.videoPage h3 {
+  font-family: "Questa Grande", serif;
+  display: flex;
+  justify-content: center;
+  font-size: 45px;
+  color: #BFBFBF;
+  padding-top: 60px; }
+
+.videoPage .video--txt {
+  padding-top: 80px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 80px 0 100px 0; }
+  .videoPage .video--txt .video--wrapper {
+    display: block;
+    width: 40%; }
+    .videoPage .video--txt .video--wrapper p {
+      margin-top: 80px;
+      color: #BFBFBF;
+      font-size: 18px;
+      text-align: justify;
+      font-family: Avenir, sans-serif; }
+    .videoPage .video--txt .video--wrapper h4 {
+      font-family: Avenir, sans-serif;
+      text-transform: uppercase;
+      font-size: 18px;
+      font-weight: bold;
+      color: #BFBFBF;
+      padding-top: 30px; }
+  .videoPage .video--txt .video--img {
+    height: 400px;
+    width: auto;
+    filter: grayscale(100%); }
+
+.videoPage .videoSlide {
+  position: absolute;
+  text-decoration: none;
+  color: #BFBFBF;
+  font-weight: bold;
+  font-size: 21px;
+  font-family: Avenir, sans-serif; }
+
+.videoPage .prev {
+  left: 80px;
+  bottom: 30px; }
+  .videoPage .prev:hover {
+    color: white;
+    transform: scale(1.1);
+    transition: 0.5s; }
+
+.videoPage .next {
+  right: 80px;
+  bottom: 30px; }
+  .videoPage .next:hover {
+    color: white;
+    transform: scale(1.1);
+    transition: 0.5s; }
+
+.appliPage h3 {
+  font-family: "Questa Grande", serif;
+  display: flex;
+  justify-content: center;
+  font-size: 45px;
+  color: #BFBFBF;
+  padding-top: 60px; }
+
+.appliPage .appli--txt {
+  padding-top: 80px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 80px 0 100px 0; }
+  .appliPage .appli--txt .appli--wrapper {
+    display: block;
+    width: 40%; }
+    .appliPage .appli--txt .appli--wrapper p {
+      margin-top: 80px;
+      color: #BFBFBF;
+      font-size: 18px;
+      text-align: justify;
+      font-family: Avenir, sans-serif; }
+    .appliPage .appli--txt .appli--wrapper h4 {
+      font-family: Avenir, sans-serif;
+      text-transform: uppercase;
+      font-size: 18px;
+      font-weight: bold;
+      color: #BFBFBF;
+      padding-top: 30px; }
+  .appliPage .appli--txt .appli--img {
+    height: 400px;
+    width: auto;
+    filter: grayscale(100%); }
+
+.appliPage .appliSlide {
+  position: absolute;
+  text-decoration: none;
+  color: #BFBFBF;
+  font-weight: bold;
+  font-size: 21px;
+  font-family: Avenir, sans-serif; }
+
+.appliPage .prev {
+  left: 80px;
+  bottom: 30px; }
+  .appliPage .prev:hover {
+    color: white;
+    transform: scale(1.1);
+    transition: 0.5s; }

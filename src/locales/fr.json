@@ -4,7 +4,8 @@
     "accueil": "Accueil",
     "galerie": "Galerie",
     "esplanade": "L'esplanade",
-    "musees": "Musées"
+    "musees": "Musées",
+    "audioguide": "Audioguide"
   },
   "home": {
     "titre": "Musée du Louvre",
@@ -61,6 +62,25 @@
     "titre": "Musée du Louvre Lens",
     "contenu": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci ducimus enim est hic laudantium,                molestiae                nihil non odio odit perferendis quam ullam? Culpa maiores nisi saepe soluta, tempora velit voluptatibus.                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad amet asperiores deserunt illo inventore                ipsam                labore modi nemo nostrum nulla, optio placeat porro possimus quidem quos vel veritatis vero                voluptate.  labore modi nemo nostrum nulla, optio placeat porro possimus quidem quos vel veritatis vero                voluptate",
     "link": "Voir le site"
+  },
+  "audio": {
+    "titre": "Audio Guide",
+    "contenu": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci ducimus enim est hic laudantium,                molestiae                nihil non odio odit perferendis quam ullam? Culpa maiores nisi saepe soluta, tempora velit voluptatibus.                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad amet asperiores deserunt illo inventore                ipsam                labore modi nemo nostrum nulla, optio placeat porro possimus quidem quos vel veritatis vero                voluptate.  labore modi nemo nostrum nulla, optio placeat porro possimus quidem quos vel veritatis vero                voluptate",
+    "next": "Vidéo Guide",
+    "prix": "Prix"
+  },
+  "video": {
+    "titre": "Vidéo Guide",
+    "contenu": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci ducimus enim est hic laudantium,                molestiae                nihil non odio odit perferendis quam ullam? Culpa maiores nisi saepe soluta, tempora velit voluptatibus.                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad amet asperiores deserunt illo inventore                ipsam                labore modi nemo nostrum nulla, optio placeat porro possimus quidem quos vel veritatis vero                voluptate.  labore modi nemo nostrum nulla, optio placeat porro possimus quidem quos vel veritatis vero                voluptate",
+    "next": "Appli Guide",
+    "prev": "Audio Guide",
+    "prix": "Prix"
+  },
+  "appli": {
+    "titre": "Appli Guide",
+    "contenu": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci ducimus enim est hic laudantium,                molestiae                nihil non odio odit perferendis quam ullam? Culpa maiores nisi saepe soluta, tempora velit voluptatibus.                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad amet asperiores deserunt illo inventore                ipsam                labore modi nemo nostrum nulla, optio placeat porro possimus quidem quos vel veritatis vero                voluptate.  labore modi nemo nostrum nulla, optio placeat porro possimus quidem quos vel veritatis vero                voluptate",
+    "prev": "Vidéo Guide",
+    "prix": "Prix"
   }
 
 }
