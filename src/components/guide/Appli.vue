@@ -5,7 +5,7 @@
         <div class="appli--txt">
             <div class="appli--wrapper">
                 <p>{{ $t('appli.contenu') }}</p>
-                <h4>{{ $t('appli.prix') }} : 4 €</h4>
+                <h4>{{ $t('appli.prix') }} : Gratuit</h4>
             </div>
 
             <img src="../../../public/img/tel.png" class="appli--img">
