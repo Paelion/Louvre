@@ -670,6 +670,41 @@ body {
     margin: 0 10px; } }
 
 @media (max-width: 440px) {
+  .plan--wrapper .parallax {
+    display: none; }
+  .plan--wrapper .plan {
+    opacity: 0;
+    height: 500px;
+    width: 100%;
+    filter: grayscale(100%);
+    margin-left: -5px;
+    transition: 1s all ease-in-out; }
+  .plan--wrapper .pyramide--plan, .plan--wrapper .carousel--plan {
+    opacity: 0;
+    color: #BFBFBF;
+    transform: translateY(20px);
+    transition: 1s all ease-in-out; }
+  .plan--wrapper .text-appear {
+    opacity: 1;
+    transform: translateY(0px); }
+  .plan--wrapper .plan--txt {
+    display: block;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 80px 0 100px 0; }
+    .plan--wrapper .plan--txt .pyra {
+      height: 300px;
+      width: 100%;
+      filter: grayscale(100%); }
+    .plan--wrapper .plan--txt .carousel {
+      height: 300px;
+      width: 100%;
+      filter: grayscale(100%); }
+    .plan--wrapper .plan--txt p {
+      width: 100%;
+      color: #BFBFBF;
+      font-size: 20px;
+      text-align: center; }
   .oeuvre .oeuvre--wrapper {
     margin: 0 20px;
     display: flex; }
