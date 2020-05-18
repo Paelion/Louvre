@@ -1405,5 +1405,115 @@ body {
     }
   }
 
+  .audioPage, .videoPage, .appliPage {
+
+    h3 {
+      font-size: 35px;
+      padding-top: 100px;
+    }
+
+    .audio--txt {
+
+      .audio--wrapper{
+        display: block;
+        width: 85%;
+        padding: 50px 0 50px 50px;
+
+        p {
+          width: 80%;
+          position: absolute;
+          top: 40%;
+        }
+
+        h4 {
+          position: absolute;
+          top: 63%;
+        }
+      }
+      .audio--img {
+        position: absolute;
+        height: 300px;
+        margin-top: -20%;
+      }
+    }
+    .next {
+      right: 150px;
+      bottom: 30px;
+      padding: 70px 0 50px;
+    }
+
+    .video--txt {
+
+      .video--wrapper{
+        display: block;
+        width: 85%;
+        padding: 50px 0 50px 50px;
+
+        p {
+          width: 80%;
+          position: absolute;
+          top: 40%;
+        }
+
+        h4 {
+          position: absolute;
+          top: 63%;
+        }
+      }
+      .video--img{
+        position: absolute;
+        height: 300px;
+        margin-top: -20%;
+      }
+    }
+    .next {
+      right: 50px;
+      bottom: 30px;
+      padding: 70px 0 50px;
+    }
+    .prev {
+      left: 50px;
+      bottom: 30px;
+      padding: 70px 0 50px;
+    }
+
+    .appli--txt {
+
+      .appli--wrapper{
+        display: block;
+        width: 85%;
+        padding: 50px 0 50px 50px;
+
+        p {
+          width: 80%;
+          position: absolute;
+          top: 40%;
+        }
+
+        h4 {
+          position: absolute;
+          top: 63%;
+        }
+      }
+      .appli--img {
+        position: absolute;
+        height: 300px;
+        margin-top: -20%;
+      }
+    }
+    .next {
+      right: 50px;
+      bottom: 30px;
+      padding: 70px 0 50px;
+    }
+    .prev {
+      left: 50px;
+      bottom: 30px;
+      padding: 70px 0 50px;
+    }
+  }
+
+
+
 }
 

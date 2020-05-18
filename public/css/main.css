@@ -906,4 +906,72 @@ body {
   .home .pyramide--responsive--wrapper {
     display: block; }
   .home .pyramide--wrapper {
-    display: none; } }
+    display: none; }
+  .audioPage h3, .videoPage h3, .appliPage h3 {
+    font-size: 35px;
+    padding-top: 100px; }
+  .audioPage .audio--txt .audio--wrapper, .videoPage .audio--txt .audio--wrapper, .appliPage .audio--txt .audio--wrapper {
+    display: block;
+    width: 85%;
+    padding: 50px 0 50px 50px; }
+    .audioPage .audio--txt .audio--wrapper p, .videoPage .audio--txt .audio--wrapper p, .appliPage .audio--txt .audio--wrapper p {
+      width: 80%;
+      position: absolute;
+      top: 40%; }
+    .audioPage .audio--txt .audio--wrapper h4, .videoPage .audio--txt .audio--wrapper h4, .appliPage .audio--txt .audio--wrapper h4 {
+      position: absolute;
+      top: 63%; }
+  .audioPage .audio--txt .audio--img, .videoPage .audio--txt .audio--img, .appliPage .audio--txt .audio--img {
+    position: absolute;
+    height: 300px;
+    margin-top: -20%; }
+  .audioPage .next, .videoPage .next, .appliPage .next {
+    right: 150px;
+    bottom: 30px;
+    padding: 70px 0 50px; }
+  .audioPage .video--txt .video--wrapper, .videoPage .video--txt .video--wrapper, .appliPage .video--txt .video--wrapper {
+    display: block;
+    width: 85%;
+    padding: 50px 0 50px 50px; }
+    .audioPage .video--txt .video--wrapper p, .videoPage .video--txt .video--wrapper p, .appliPage .video--txt .video--wrapper p {
+      width: 80%;
+      position: absolute;
+      top: 40%; }
+    .audioPage .video--txt .video--wrapper h4, .videoPage .video--txt .video--wrapper h4, .appliPage .video--txt .video--wrapper h4 {
+      position: absolute;
+      top: 63%; }
+  .audioPage .video--txt .video--img, .videoPage .video--txt .video--img, .appliPage .video--txt .video--img {
+    position: absolute;
+    height: 300px;
+    margin-top: -20%; }
+  .audioPage .next, .videoPage .next, .appliPage .next {
+    right: 50px;
+    bottom: 30px;
+    padding: 70px 0 50px; }
+  .audioPage .prev, .videoPage .prev, .appliPage .prev {
+    left: 50px;
+    bottom: 30px;
+    padding: 70px 0 50px; }
+  .audioPage .appli--txt .appli--wrapper, .videoPage .appli--txt .appli--wrapper, .appliPage .appli--txt .appli--wrapper {
+    display: block;
+    width: 85%;
+    padding: 50px 0 50px 50px; }
+    .audioPage .appli--txt .appli--wrapper p, .videoPage .appli--txt .appli--wrapper p, .appliPage .appli--txt .appli--wrapper p {
+      width: 80%;
+      position: absolute;
+      top: 40%; }
+    .audioPage .appli--txt .appli--wrapper h4, .videoPage .appli--txt .appli--wrapper h4, .appliPage .appli--txt .appli--wrapper h4 {
+      position: absolute;
+      top: 63%; }
+  .audioPage .appli--txt .appli--img, .videoPage .appli--txt .appli--img, .appliPage .appli--txt .appli--img {
+    position: absolute;
+    height: 300px;
+    margin-top: -20%; }
+  .audioPage .next, .videoPage .next, .appliPage .next {
+    right: 50px;
+    bottom: 30px;
+    padding: 70px 0 50px; }
+  .audioPage .prev, .videoPage .prev, .appliPage .prev {
+    left: 50px;
+    bottom: 30px;
+    padding: 70px 0 50px; } }
