@@ -12,16 +12,21 @@
                         <router-link :to="`/${$i18n.locale}/`" class="menu--link">{{ $t('nav.accueil') }}</router-link>
                     </li>
                     <li class="menuItem2">
-                        <router-link :to="`/${$i18n.locale}/oeuvre`" class="menu--link"> {{ $t('nav.galerie') }}</router-link>
+                        <router-link :to="`/${$i18n.locale}/oeuvre`" class="menu--link"> {{ $t('nav.galerie') }}
+                        </router-link>
                     </li>
                     <li class="menuItem3">
-                        <router-link :to="`/${$i18n.locale}/audioguide`" class="menu--link"> {{ $t('nav.audioguide') }}</router-link>
+                        <router-link :to="`/${$i18n.locale}/audioguide`" class="menu--link"> {{ $t('nav.audioguide')
+                            }}
+                        </router-link>
                     </li>
                     <li class="menuItem4">
-                        <router-link :to="`/${$i18n.locale}/plan`" class="menu--link">{{ $t('nav.esplanade') }}</router-link>
+                        <router-link :to="`/${$i18n.locale}/plan`" class="menu--link">{{ $t('nav.esplanade') }}
+                        </router-link>
                     </li>
                     <li class="menuItem5">
-                        <router-link :to="`/${$i18n.locale}/musees`" class="menu--link">{{ $t('nav.musees') }}</router-link>
+                        <router-link :to="`/${$i18n.locale}/musees`" class="menu--link">{{ $t('nav.musees') }}
+                        </router-link>
                     </li>
                 </ul>
             </div>
@@ -29,7 +34,9 @@
             <Langague/>
 
         </div>
-        <router-view/>
+        <transition name="router-anim">
+            <router-view/>
+        </transition>
     </div>
 </template>
 
