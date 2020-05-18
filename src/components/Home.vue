@@ -5,6 +5,7 @@
         </div>
         <p class="txt1Home">{{ $t('home.txt1') }}</p>
         <Pyramide class="pyramide--wrapper"/>
+        <PyramideResponsive class="pyramide--responsive--wrapper"/>
         <p class="txt2Home">{{ $t('home.txt2') }}</p>
 
         <div class="arrow">
@@ -21,11 +22,13 @@
 <script>
     //import Menu from "./Menu";
     import Pyramide from "./Pyramide";
+    import PyramideResponsive from "./PyramideResponsive";
 
 
     export default {
         name: 'Home',
         components: {
+            PyramideResponsive,
             //Menu,
             Pyramide
         },

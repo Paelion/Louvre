@@ -62,6 +62,8 @@ body {
       text-decoration: none; }
   .home .pyramide--wrapper {
     padding-top: 60px; }
+  .home .pyramide--responsive--wrapper {
+    display: none; }
   .home .txt1Home, .home .txt2Home {
     color: #BFBFBF;
     font-size: 20px;
@@ -897,4 +899,11 @@ body {
     bottom: 0;
     padding-bottom: 50px;
     padding-top: 50px;
-    left: 120px; } }
+    left: 120px; }
+  .home .homeTop .titleHome {
+    padding-top: 50px;
+    font-size: 50px; }
+  .home .pyramide--responsive--wrapper {
+    display: block; }
+  .home .pyramide--wrapper {
+    display: none; } }
