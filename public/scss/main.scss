@@ -589,7 +589,30 @@ body {
     transform: translate(-50%);
     padding-bottom: 80px;
     padding-top: 30px;
+
   }
+
+  .lensSlide {
+    position: absolute;
+    text-decoration: none;
+    color: $txt-color;
+    font-weight: bold;
+    font-size: 21px;
+    font-family: $fontSS;
+  }
+
+  .next {
+    right: 80px;
+    bottom: -75%;
+    padding-bottom: 50px;
+
+    &:hover {
+      color: white;
+      transform: scale(1.1);
+      transition: 0.5s;
+    }
+  }
+
 }
 
 
@@ -658,12 +681,33 @@ body {
 
   .adMap {
     position: absolute;
-    height: 550px;
+    height: 540px;
     width: auto;
     left: 50%;
     transform: translate(-50%);
     padding-bottom: 80px;
     padding-top: 30px;
+  }
+
+  .adSlide {
+    position: absolute;
+    text-decoration: none;
+    color: $txt-color;
+    font-weight: bold;
+    font-size: 21px;
+    font-family: $fontSS;
+  }
+
+  .prev {
+    left: 80px;
+    bottom: -75%;
+    padding-bottom: 50px;
+
+    &:hover {
+      color: white;
+      transform: scale(1.1);
+      transition: 0.5s;
+    }
   }
 }
 
@@ -901,6 +945,4 @@ body {
     }
   }
 }
-
-
 

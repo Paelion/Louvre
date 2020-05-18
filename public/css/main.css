@@ -398,6 +398,23 @@ body {
   padding-bottom: 80px;
   padding-top: 30px; }
 
+.lensPage .lensSlide {
+  position: absolute;
+  text-decoration: none;
+  color: #BFBFBF;
+  font-weight: bold;
+  font-size: 21px;
+  font-family: Avenir, sans-serif; }
+
+.lensPage .next {
+  right: 80px;
+  bottom: -75%;
+  padding-bottom: 50px; }
+  .lensPage .next:hover {
+    color: white;
+    transform: scale(1.1);
+    transition: 0.5s; }
+
 .adPage h3 {
   font-family: "Questa Grande", serif;
   display: flex;
@@ -444,12 +461,29 @@ body {
 
 .adPage .adMap {
   position: absolute;
-  height: 550px;
+  height: 540px;
   width: auto;
   left: 50%;
   transform: translate(-50%);
   padding-bottom: 80px;
   padding-top: 30px; }
+
+.adPage .adSlide {
+  position: absolute;
+  text-decoration: none;
+  color: #BFBFBF;
+  font-weight: bold;
+  font-size: 21px;
+  font-family: Avenir, sans-serif; }
+
+.adPage .prev {
+  left: 80px;
+  bottom: -75%;
+  padding-bottom: 50px; }
+  .adPage .prev:hover {
+    color: white;
+    transform: scale(1.1);
+    transition: 0.5s; }
 
 .audioguide h3 {
   font-family: "Questa Grande", serif;

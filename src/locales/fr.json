@@ -56,12 +56,14 @@
   "ad": {
     "titre": "Musée du Louvre Abu Dhabi",
     "contenu": "Le Louvre Abou Dabi (en arabe : اللوفر أبو ظبي), ou Louvre Abu Dhabi selon la translittération retenue par le musée dans ses publications officielles en français, est un musée fondé en 2017.\nInaugurée le 8 novembre 2017 et ouvert au public le 11 novembre, ce musée, dépendant du musée du Louvre et installée dans une architecture confiée à l'architecte français Jean Nouvel, est créé après un accord intergouvernemental signé le 6 mars 2007 entre la France et l'émirat d'Abou Dabi.",
-    "link": "Voir le site"
+    "link": "Voir le site",
+    "other": "Voir le musée de Lens"
   },
   "lens": {
     "titre": "Musée du Louvre Lens",
     "contenu": "Le Louvre-Lens est un établissement public de coopération culturelle à caractère administratif fondé par le conseil régional du Nord-Pas-de-Calais, le département du Pas-de-Calais, la communauté d’agglomération de Lens-Liévin, la ville de Lens et le musée du Louvre. Ce « deuxième Louvre » est situé à Lens dans le Pas-de-Calais, sa directrice est Marie Lavandier ; il s'agit d'un établissement autonome, lié au musée du Louvre parisien par une convention scientifique et culturelle.",
-    "link": "Voir le site"
+    "link": "Voir le site",
+    "other": "Voir le musée d'Abu Dhabi"
   },
   "audio": {
     "titre": "Audio Guide",

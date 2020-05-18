@@ -15,6 +15,8 @@
         </div>
 
         <img src="../../public/img/louvreAD.png" alt="" class="adMap">
+
+        <router-link :to="`/${$i18n.locale}/lens`" class="adSlide prev">{{ $t('ad.other') }}</router-link>
     </div>
 </template>
 
