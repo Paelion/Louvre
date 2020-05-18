@@ -622,3 +622,49 @@ body {
     color: white;
     transform: scale(1.1);
     transition: 0.5s; }
+
+@media (max-width: 1920px) {
+  .oeuvre .oeuvre--wrapper .oeuvre--content--wrapper {
+    margin: 0 100px; } }
+
+@media (max-width: 1440px) {
+  .oeuvre .oeuvre--wrapper .oeuvre--content--wrapper {
+    margin: 0 10px; } }
+
+@media (max-width: 440px) {
+  .oeuvre .oeuvre--wrapper {
+    margin: 0px 20px;
+    display: flex; }
+    .oeuvre .oeuvre--wrapper h2 {
+      writing-mode: vertical-rl;
+      text-orientation: upright;
+      text-transform: uppercase;
+      font-size: 50px;
+      margin-top: -50px;
+      margin-left: -50px; }
+    .oeuvre .oeuvre--wrapper .oeuvre--content--wrapper {
+      margin: 0 10px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; }
+      .oeuvre .oeuvre--wrapper .oeuvre--content--wrapper .textEffect .imgGallerie img {
+        display: block;
+        width: 250px;
+        margin: 0 10px; }
+        .oeuvre .oeuvre--wrapper .oeuvre--content--wrapper .textEffect .imgGallerie img:hover {
+          opacity: 0.5;
+          transform: scale(0.95);
+          transition: 0.5s;
+          cursor: pointer; }
+      .oeuvre .oeuvre--wrapper .oeuvre--content--wrapper .textEffect .imgGallerie h3 {
+        display: none;
+        color: #BFBFBF;
+        font-size: 15px;
+        margin-left: 20px;
+        margin-top: 5px; }
+      .oeuvre .oeuvre--wrapper .oeuvre--content--wrapper .textEffect .imgGallerie .venusIMG {
+        margin-top: -50%; }
+      .oeuvre .oeuvre--wrapper .oeuvre--content--wrapper .textEffect .imgGallerie .jocondeIMG {
+        margin-top: 11%; }
+      .oeuvre .oeuvre--wrapper .oeuvre--content--wrapper .textEffect .imgGallerie .pharaIMG {
+        margin-top: -17%; } }

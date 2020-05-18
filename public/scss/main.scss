@@ -904,3 +904,87 @@ body {
 
 
 
+@media  (max-width: 1920px)  {
+  .oeuvre {
+    .oeuvre--wrapper {
+      .oeuvre--content--wrapper {
+        margin: 0 100px;
+      }
+    }
+  }
+}
+
+@media  (max-width: 1440px)  {
+  .oeuvre {
+    .oeuvre--wrapper {
+      .oeuvre--content--wrapper {
+        margin: 0 10px;
+      }
+    }
+  }
+}
+
+@media  (max-width: 440px)  {
+  .oeuvre {
+    .oeuvre--wrapper {
+      margin: 0px 20px;
+      display: flex;
+
+      h2 {
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+        text-transform: uppercase;
+        font-size: 50px;
+        margin-top: -50px;
+        margin-left: -50px;
+      }
+
+      .oeuvre--content--wrapper {
+        margin: 0 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .textEffect {
+
+          .imgGallerie {
+            img {
+              display: block;
+              width: 250px;
+              margin: 0 10px;
+
+              &:hover {
+                opacity: 0.5;
+                transform: scale(0.95);
+                transition: 0.5s;
+                cursor: pointer;
+              }
+            }
+
+            h3 {
+              display: none;
+              color: $txt-color;
+              font-size: 15px;
+              margin-left: 20px;
+              margin-top: 5px;
+            }
+
+
+            .venusIMG {
+              margin-top: -50%;
+            }
+
+            .jocondeIMG {
+              margin-top: 11%;
+            }
+
+            .pharaIMG {
+              margin-top: -17%;
+            }
+          }
+        }
+
+      }
+    }
+  }
+}
