@@ -436,6 +436,10 @@ body {
 
   .musees--wraper {
 
+    .musees--link {
+      text-decoration: none;
+    }
+
     .lens--wrapper {
       img {
         height: 85vh;
@@ -946,6 +950,7 @@ body {
   }
 }
 
+/*---------------------------------------------------- RESPONSIVE -----------------------------------------*/
 
 @media (max-width: 1920px) {
   .oeuvre {
@@ -1015,12 +1020,12 @@ body {
             }
 
 
-            .venusIMG, .jocondeIMG, .pharaIMG, .dentelliereIMG,.scribeIMG {
+            .venusIMG, .jocondeIMG, .pharaIMG, .dentelliereIMG, .scribeIMG {
               margin-top: 10%;
             }
 
 
-            .liberteIMG{
+            .liberteIMG {
               margin-top: 55%;
             }
 
@@ -1178,90 +1183,72 @@ body {
       font-family: $fontAS;
       display: flex;
       justify-content: center;
-      font-size: 40px;
+      font-size: 35px;
       color: $txt-color;
       margin-bottom: 30px;
-      padding-top: 80px;
+      padding-top: 100px;
     }
 
     .musees--wraper {
+      margin: 0 10%;
 
       .lens--wrapper {
+        padding: 50px 0;
+
         img {
-          height: 85vh;
-          width: 100vw;
+          height: auto;
+          width: 80vw;
+          position: relative;
         }
 
         .lens--title {
-          position: absolute;
-          font-family: $fontSS;
-          font-size: 50px;
-          color: #000;
-          left: 13%;
-          bottom: 30%;
+          position: relative;
+          font-size: 30px;
+          color: #ffffff;
+          left: 20%;
+          padding: 30px 0;
         }
 
         &:hover {
-          cursor: pointer;
-
-          .lens--title {
-            transition: 0.5s;
-            color: #fff;
-            z-index: 2;
-          }
 
           img {
-            z-index: 1;
-            width: 60%;
-            transition: 0.5s;
-            filter: brightness(40%);
+            width: 100%;
           }
         }
+
 
       }
 
       .ad--wrapper {
-        img {
-          height: 85vh;
-          width: 50%;
+        .ad {
+          left: 0;
+        }
 
+        img {
+          height: auto;
+          width: 80vw;
+          position: relative;
         }
 
         .ad--title {
-          position: absolute;
+          position: relative;
           font-family: $fontSS;
-          display: flex;
-          justify-content: left;
-          font-size: 50px;
-          color: #000;
-          right: 10%;
-          bottom: 30%;
-        }
-
-        .ad {
-          left: 100%;
+          font-size: 30px;
+          color: #fff;
+          left: 10%;
+          padding: 30px 0;
         }
 
         &:hover {
-          cursor: pointer;
-
-          .ad--title {
-            transition: 0.5s;
-            color: #fff;
-            z-index: 2;
-          }
-
           img {
-            transition: 0.5s;
-            z-index: 1;
-            width: 60%;
-            filter: brightness(40%);
+            width: 100%;
           }
 
           .ad {
-            left: 40%;
+            left: 0;
           }
         }
+
       }
 
     }
