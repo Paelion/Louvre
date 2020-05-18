@@ -670,12 +670,12 @@ body {
     margin: 0px 20px;
     display: flex; }
     .oeuvre .oeuvre--wrapper h2 {
-      writing-mode: vertical-rl;
-      text-orientation: upright;
+      writing-mode: horizontal-tb;
+      position: absolute;
       text-transform: uppercase;
-      font-size: 50px;
-      margin-top: -50px;
-      margin-left: -50px; }
+      font-size: 40px;
+      margin-top: 30px;
+      margin-left: 110px; }
     .oeuvre .oeuvre--wrapper .oeuvre--content--wrapper {
       margin: 0 10px;
       display: flex;
@@ -696,9 +696,7 @@ body {
         font-size: 15px;
         margin-left: 20px;
         margin-top: 5px; }
-      .oeuvre .oeuvre--wrapper .oeuvre--content--wrapper .textEffect .imgGallerie .venusIMG {
-        margin-top: -50%; }
-      .oeuvre .oeuvre--wrapper .oeuvre--content--wrapper .textEffect .imgGallerie .jocondeIMG {
-        margin-top: 11%; }
-      .oeuvre .oeuvre--wrapper .oeuvre--content--wrapper .textEffect .imgGallerie .pharaIMG {
-        margin-top: -17%; } }
+      .oeuvre .oeuvre--wrapper .oeuvre--content--wrapper .textEffect .imgGallerie .venusIMG, .oeuvre .oeuvre--wrapper .oeuvre--content--wrapper .textEffect .imgGallerie .jocondeIMG, .oeuvre .oeuvre--wrapper .oeuvre--content--wrapper .textEffect .imgGallerie .pharaIMG, .oeuvre .oeuvre--wrapper .oeuvre--content--wrapper .textEffect .imgGallerie .dentelliereIMG, .oeuvre .oeuvre--wrapper .oeuvre--content--wrapper .textEffect .imgGallerie .scribeIMG {
+        margin-top: 10%; }
+      .oeuvre .oeuvre--wrapper .oeuvre--content--wrapper .textEffect .imgGallerie .liberteIMG {
+        margin-top: 55%; } }

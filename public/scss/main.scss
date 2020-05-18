@@ -976,12 +976,14 @@ body {
       display: flex;
 
       h2 {
-        writing-mode: vertical-rl;
-        text-orientation: upright;
+        writing-mode: horizontal-tb;
+        position: absolute;
+
         text-transform: uppercase;
-        font-size: 50px;
-        margin-top: -50px;
-        margin-left: -50px;
+        font-size: 40px;
+        margin-top: 30px;
+        margin-left: 110px;
+
       }
 
       .oeuvre--content--wrapper {
@@ -1015,17 +1017,15 @@ body {
             }
 
 
-            .venusIMG {
-              margin-top: -50%;
+            .venusIMG, .jocondeIMG, .pharaIMG, .dentelliereIMG,.scribeIMG {
+              margin-top: 10%;
+            }
+            
+
+            .liberteIMG{
+              margin-top: 55%;
             }
 
-            .jocondeIMG {
-              margin-top: 11%;
-            }
-
-            .pharaIMG {
-              margin-top: -17%;
-            }
           }
         }
 
