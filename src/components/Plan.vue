@@ -9,19 +9,19 @@
             <h2 id="text">{{ $t('plan.esplanade') }}</h2>
         </section>
 
-        <h3>{{ $t('plan.pyramide') }}</h3>
+        <h3 class="h3pyra">{{ $t('plan.pyramide') }}</h3>
         <div class="plan--txt pyramide--plan">
             <img src="../../public/img/pyra1.jpg" class="pyra">
             <p>{{ $t('plan.txtPyramide') }}</p>
 
         </div>
-        <h3>{{ $t('plan.carousel') }}l</h3>
+        <h3 class="h3car">{{ $t('plan.carousel') }}l</h3>
         <div class="plan--txt carousel--plan">
-            <p>{{ $t('plan.txtCarousel') }}</p>
+            <p class="pcar">{{ $t('plan.txtCarousel') }}</p>
             <img src="../../public/img/carousel.jpg" class="carousel">
         </div>
 
-        <h3>{{ $t('plan.plan') }}</h3>
+        <h3 class="h3plan">{{ $t('plan.plan') }}</h3>
         <img src="../../public/img/plan.svg" class="plan">
     </div>
 </template>
