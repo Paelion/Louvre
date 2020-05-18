@@ -973,6 +973,57 @@ body {
 }
 
 @media (max-width: 440px) {
+  .plan--wrapper{
+    .parallax{
+      display: none;
+    }
+    .plan {
+      opacity: 0;
+      height: 500px;
+      width: 100%;
+      filter: grayscale(100%);
+      margin-left: -5px;
+      transition: 1s all ease-in-out;
+    }
+
+    .pyramide--plan, .carousel--plan {
+      opacity: 0;
+      color: #BFBFBF;
+      transform: translateY(20px);
+      transition: 1s all ease-in-out;
+    }
+
+    .text-appear {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+
+    .plan--txt {
+      display: block;
+      justify-content: space-evenly;
+      align-items: center;
+      margin: 80px 0 100px 0;
+
+      .pyra {
+        height: 300px;
+        width: 100%;
+        filter: grayscale(100%);
+      }
+
+      .carousel {
+        height: 300px;
+        width: 100%;
+        filter: grayscale(100%);
+      }
+
+      p {
+        width: 100%;
+        color: $txt-color;
+        font-size: 20px;
+        text-align: center;
+      }
+    }
+  }
   .oeuvre {
     .oeuvre--wrapper {
       margin: 0 20px;
