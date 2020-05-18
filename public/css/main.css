@@ -675,9 +675,9 @@ body {
   .plan--wrapper .plan {
     opacity: 0;
     height: 500px;
-    width: 100%;
+    width: 80%;
     filter: grayscale(100%);
-    margin-left: -5px;
+    margin-left: 50px;
     transition: 1s all ease-in-out; }
   .plan--wrapper .pyramide--plan, .plan--wrapper .carousel--plan {
     opacity: 0;
@@ -687,24 +687,40 @@ body {
   .plan--wrapper .text-appear {
     opacity: 1;
     transform: translateY(0px); }
+  .plan--wrapper .h3pyra {
+    font-size: 40px; }
+  .plan--wrapper .h3car {
+    padding: 250px 10px 10px;
+    margin-bottom: -20px;
+    font-size: 40px; }
+  .plan--wrapper .h3plan {
+    margin-top: 390px;
+    margin-bottom: -150px;
+    font-size: 40px; }
   .plan--wrapper .plan--txt {
     display: block;
     justify-content: space-evenly;
-    align-items: center;
-    margin: 80px 0 100px 0; }
+    align-items: center; }
     .plan--wrapper .plan--txt .pyra {
-      height: 300px;
-      width: 100%;
+      margin-top: -35px;
+      margin-left: 50px;
+      height: 200px;
+      width: 80%;
       filter: grayscale(100%); }
     .plan--wrapper .plan--txt .carousel {
-      height: 300px;
-      width: 100%;
+      margin-left: 50px;
+      height: 200px;
+      width: 80%;
       filter: grayscale(100%); }
+    .plan--wrapper .plan--txt .pcar {
+      margin-top: 215px; }
     .plan--wrapper .plan--txt p {
-      width: 100%;
+      position: absolute;
       color: #BFBFBF;
-      font-size: 20px;
-      text-align: center; }
+      font-size: 19px;
+      width: 80vw;
+      margin: 10px 50px 0 50px;
+      text-align: justify; }
   .oeuvre .oeuvre--wrapper {
     margin: 0 20px;
     display: flex; }

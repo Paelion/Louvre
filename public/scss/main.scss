@@ -980,9 +980,9 @@ body {
     .plan {
       opacity: 0;
       height: 500px;
-      width: 100%;
+      width: 80%;
       filter: grayscale(100%);
-      margin-left: -5px;
+      margin-left: 50px;
       transition: 1s all ease-in-out;
     }
 
@@ -998,29 +998,55 @@ body {
       transform: translateY(0px);
     }
 
+    .h3pyra{
+      font-size: 40px;
+    }
+
+    .h3car{
+      padding: 250px 10px 10px;
+      margin-bottom: -20px;
+      font-size: 40px;
+    }
+
+    .h3plan{
+      margin-top: 390px;
+      margin-bottom: -150px;
+      font-size: 40px;
+    }
+
+
     .plan--txt {
       display: block;
       justify-content: space-evenly;
       align-items: center;
-      margin: 80px 0 100px 0;
+
 
       .pyra {
-        height: 300px;
-        width: 100%;
+        margin-top: -35px;
+        margin-left: 50px;
+        height: 200px;
+        width: 80%;
         filter: grayscale(100%);
       }
 
       .carousel {
-        height: 300px;
-        width: 100%;
+        margin-left: 50px;
+        height: 200px;
+        width: 80%;
         filter: grayscale(100%);
       }
 
+      .pcar {
+        margin-top:215px;
+      }
+
       p {
-        width: 100%;
+        position: absolute;
         color: $txt-color;
-        font-size: 20px;
-        text-align: center;
+        font-size: 19px;
+        width: 80vw;
+        margin: 10px 50px 0 50px;
+        text-align: justify;
       }
     }
   }
