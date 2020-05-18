@@ -700,111 +700,20 @@ body {
         margin-top: 10%; }
       .oeuvre .oeuvre--wrapper .oeuvre--content--wrapper .textEffect .imgGallerie .liberteIMG {
         margin-top: 55%; }
-  .joconde h2, .venus h2, .toutankhamon h2, .liberte h2, .scribe h2, .dentelliere h2 {
-    font-family: "Questa Grande", serif;
-    font-size: 30px;
-    padding-top: 100px; }
-  .joconde .joconde--wrapper, .joconde .venus--wrapper, .joconde .toutankhamon--wrapper, .joconde .liberte--wrapper, .joconde .scribe--wrapper, .joconde .dentelliere--wrapper, .venus .joconde--wrapper, .venus .venus--wrapper, .venus .toutankhamon--wrapper, .venus .liberte--wrapper, .venus .scribe--wrapper, .venus .dentelliere--wrapper, .toutankhamon .joconde--wrapper, .toutankhamon .venus--wrapper, .toutankhamon .toutankhamon--wrapper, .toutankhamon .liberte--wrapper, .toutankhamon .scribe--wrapper, .toutankhamon .dentelliere--wrapper, .liberte .joconde--wrapper, .liberte .venus--wrapper, .liberte .toutankhamon--wrapper, .liberte .liberte--wrapper, .liberte .scribe--wrapper, .liberte .dentelliere--wrapper, .scribe .joconde--wrapper, .scribe .venus--wrapper, .scribe .toutankhamon--wrapper, .scribe .liberte--wrapper, .scribe .scribe--wrapper, .scribe .dentelliere--wrapper, .dentelliere .joconde--wrapper, .dentelliere .venus--wrapper, .dentelliere .toutankhamon--wrapper, .dentelliere .liberte--wrapper, .dentelliere .scribe--wrapper, .dentelliere .dentelliere--wrapper {
-    margin-top: 8%;
-    display: block;
-    position: absolute; }
-    .joconde .joconde--wrapper img, .joconde .venus--wrapper img, .joconde .toutankhamon--wrapper img, .joconde .liberte--wrapper img, .joconde .scribe--wrapper img, .joconde .dentelliere--wrapper img, .venus .joconde--wrapper img, .venus .venus--wrapper img, .venus .toutankhamon--wrapper img, .venus .liberte--wrapper img, .venus .scribe--wrapper img, .venus .dentelliere--wrapper img, .toutankhamon .joconde--wrapper img, .toutankhamon .venus--wrapper img, .toutankhamon .toutankhamon--wrapper img, .toutankhamon .liberte--wrapper img, .toutankhamon .scribe--wrapper img, .toutankhamon .dentelliere--wrapper img, .liberte .joconde--wrapper img, .liberte .venus--wrapper img, .liberte .toutankhamon--wrapper img, .liberte .liberte--wrapper img, .liberte .scribe--wrapper img, .liberte .dentelliere--wrapper img, .scribe .joconde--wrapper img, .scribe .venus--wrapper img, .scribe .toutankhamon--wrapper img, .scribe .liberte--wrapper img, .scribe .scribe--wrapper img, .scribe .dentelliere--wrapper img, .dentelliere .joconde--wrapper img, .dentelliere .venus--wrapper img, .dentelliere .toutankhamon--wrapper img, .dentelliere .liberte--wrapper img, .dentelliere .scribe--wrapper img, .dentelliere .dentelliere--wrapper img {
-      height: 250px;
-      width: auto;
-      position: absolute;
-      margin: 0 60px; }
-    .joconde .joconde--wrapper p, .joconde .venus--wrapper p, .joconde .toutankhamon--wrapper p, .joconde .liberte--wrapper p, .joconde .scribe--wrapper p, .joconde .dentelliere--wrapper p, .venus .joconde--wrapper p, .venus .venus--wrapper p, .venus .toutankhamon--wrapper p, .venus .liberte--wrapper p, .venus .scribe--wrapper p, .venus .dentelliere--wrapper p, .toutankhamon .joconde--wrapper p, .toutankhamon .venus--wrapper p, .toutankhamon .toutankhamon--wrapper p, .toutankhamon .liberte--wrapper p, .toutankhamon .scribe--wrapper p, .toutankhamon .dentelliere--wrapper p, .liberte .joconde--wrapper p, .liberte .venus--wrapper p, .liberte .toutankhamon--wrapper p, .liberte .liberte--wrapper p, .liberte .scribe--wrapper p, .liberte .dentelliere--wrapper p, .scribe .joconde--wrapper p, .scribe .venus--wrapper p, .scribe .toutankhamon--wrapper p, .scribe .liberte--wrapper p, .scribe .scribe--wrapper p, .scribe .dentelliere--wrapper p, .dentelliere .joconde--wrapper p, .dentelliere .venus--wrapper p, .dentelliere .toutankhamon--wrapper p, .dentelliere .liberte--wrapper p, .dentelliere .scribe--wrapper p, .dentelliere .dentelliere--wrapper p {
-      position: absolute;
-      color: #BFBFBF;
-      font-size: 19px;
-      width: 80vw;
-      margin: 300px 50px 0 50px;
-      text-align: justify; }
-  .liberte {
-    height: 80vh; }
-    .liberte .liberte--wrapper p {
-      position: absolute;
-      color: #BFBFBF;
-      font-size: 19px;
-      width: 80vw;
-      margin: 300px 50px 130px 50px;
-      text-align: justify; }
-  .scribe {
-    height: 60vh; }
-    .scribe .scribe--wrapper img {
-      height: 300px;
-      margin: 0 120px; }
-    .scribe .scribe--wrapper p {
-      padding-top: 50px; }
-  .dentelliere {
-    height: 65vh; }
-    .dentelliere .dentelliere--wrapper img {
-      height: 300px;
-      margin: 0 90px; }
-    .dentelliere .dentelliere--wrapper p {
-      padding-top: 50px; }
-  .venus {
-    height: 75vh; }
-    .venus .venus--wrapper img {
-      height: 300px;
-      margin: 0 140px; }
-    .venus .venus--wrapper p {
-      padding-top: 50px; }
-  .joconde {
-    height: 55vh; }
-    .joconde .joconde--wrapper img {
-      height: 300px;
-      margin: 0 70px; }
-    .joconde .joconde--wrapper p {
-      padding-top: 50px; }
-  .toutankhamon {
-    height: 60vh; }
-    .toutankhamon .toutankhamon--wrapper img {
-      height: 300px;
-      margin: 0 110px; }
-    .toutankhamon .toutankhamon--wrapper p {
-      padding-top: 50px; }
-  .oeuvreSlide {
-    position: absolute;
-    margin-top: 55%; }
-  .next {
-    right: 50px;
-    padding: 70px 0 50px; }
-  .prev {
-    left: 50px; }
-  .musees h3 {
-    font-family: "Questa Grande", serif;
-    display: flex;
-    justify-content: center;
-    font-size: 40px;
-    color: #BFBFBF;
-    margin-bottom: 30px;
-    padding-top: 80px; }
-  .musees .musees--wraper .lens--wrapper img {
-    height: 85vh;
+  .musees--wraper .lens--wrapper img {
     width: 100vw; }
-  .musees .musees--wraper .lens--wrapper .lens--title {
+  .musees--wraper .lens--wrapper .lens--title {
     position: absolute;
     font-family: Avenir, sans-serif;
     font-size: 50px;
     color: #000;
     left: 13%;
     bottom: 30%; }
-  .musees .musees--wraper .lens--wrapper:hover {
-    cursor: pointer; }
-    .musees .musees--wraper .lens--wrapper:hover .lens--title {
-      transition: 0.5s;
-      color: #fff;
-      z-index: 2; }
-    .musees .musees--wraper .lens--wrapper:hover img {
-      z-index: 1;
-      width: 60%;
-      transition: 0.5s;
-      filter: brightness(40%); }
-  .musees .musees--wraper .ad--wrapper img {
-    height: 85vh;
-    width: 50%; }
-  .musees .musees--wraper .ad--wrapper .ad--title {
+  .musees--wraper .ad--wrapper img {
+    position: absolute;
+    margin-top: 600px;
+    width: 100vw; }
+  .musees--wraper .ad--wrapper .ad--title {
     position: absolute;
     font-family: Avenir, sans-serif;
     display: flex;
@@ -813,18 +722,175 @@ body {
     color: #000;
     right: 10%;
     bottom: 30%; }
-  .musees .musees--wraper .ad--wrapper .ad {
-    left: 100%; }
-  .musees .musees--wraper .ad--wrapper:hover {
+  .musees--wraper .ad--wrapper .ad {
+    left: 50%; }
+  .plan--wrapper .plan {
+    opacity: 0;
+    height: 500px;
+    width: auto;
+    filter: grayscale(100%);
+    margin: 80px 0 50px 15%;
+    transition: 1s all ease-in-out; }
+  .plan--wrapper .pyramide--plan, .plan--wrapper .carousel--plan {
+    opacity: 0;
+    color: #BFBFBF;
+    transform: translateY(20px);
+    transition: 1s all ease-in-out; }
+  .plan--wrapper .text-appear {
+    opacity: 1;
+    transform: translateY(0px); }
+  .plan--wrapper .plan--txt {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 80px 0 100px 0; }
+    .plan--wrapper .plan--txt .pyra {
+      height: 300px;
+      width: auto;
+      filter: grayscale(100%); }
+    .plan--wrapper .plan--txt .carousel {
+      height: 300px;
+      width: auto;
+      filter: grayscale(100%); }
+    .plan--wrapper .plan--txt p {
+      width: 40%;
+      color: #BFBFBF;
+      font-size: 20px;
+      text-align: justify; }
+  .plan--wrapper h3 {
+    font-family: "Questa Grande", serif;
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    color: #BFBFBF;
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding-top: 80px; }
+  .plan--wrapper .joconde h2, .plan--wrapper .venus h2, .plan--wrapper .toutankhamon h2, .plan--wrapper .liberte h2, .plan--wrapper .scribe h2, .plan--wrapper .dentelliere h2 {
+    font-family: "Questa Grande", serif;
+    font-size: 30px;
+    padding-top: 100px; }
+  .plan--wrapper .joconde .joconde--wrapper, .plan--wrapper .joconde .venus--wrapper, .plan--wrapper .joconde .toutankhamon--wrapper, .plan--wrapper .joconde .liberte--wrapper, .plan--wrapper .joconde .scribe--wrapper, .plan--wrapper .joconde .dentelliere--wrapper, .plan--wrapper .venus .joconde--wrapper, .plan--wrapper .venus .venus--wrapper, .plan--wrapper .venus .toutankhamon--wrapper, .plan--wrapper .venus .liberte--wrapper, .plan--wrapper .venus .scribe--wrapper, .plan--wrapper .venus .dentelliere--wrapper, .plan--wrapper .toutankhamon .joconde--wrapper, .plan--wrapper .toutankhamon .venus--wrapper, .plan--wrapper .toutankhamon .toutankhamon--wrapper, .plan--wrapper .toutankhamon .liberte--wrapper, .plan--wrapper .toutankhamon .scribe--wrapper, .plan--wrapper .toutankhamon .dentelliere--wrapper, .plan--wrapper .liberte .joconde--wrapper, .plan--wrapper .liberte .venus--wrapper, .plan--wrapper .liberte .toutankhamon--wrapper, .plan--wrapper .liberte .liberte--wrapper, .plan--wrapper .liberte .scribe--wrapper, .plan--wrapper .liberte .dentelliere--wrapper, .plan--wrapper .scribe .joconde--wrapper, .plan--wrapper .scribe .venus--wrapper, .plan--wrapper .scribe .toutankhamon--wrapper, .plan--wrapper .scribe .liberte--wrapper, .plan--wrapper .scribe .scribe--wrapper, .plan--wrapper .scribe .dentelliere--wrapper, .plan--wrapper .dentelliere .joconde--wrapper, .plan--wrapper .dentelliere .venus--wrapper, .plan--wrapper .dentelliere .toutankhamon--wrapper, .plan--wrapper .dentelliere .liberte--wrapper, .plan--wrapper .dentelliere .scribe--wrapper, .plan--wrapper .dentelliere .dentelliere--wrapper {
+    margin-top: 8%;
+    display: block;
+    position: absolute; }
+    .plan--wrapper .joconde .joconde--wrapper img, .plan--wrapper .joconde .venus--wrapper img, .plan--wrapper .joconde .toutankhamon--wrapper img, .plan--wrapper .joconde .liberte--wrapper img, .plan--wrapper .joconde .scribe--wrapper img, .plan--wrapper .joconde .dentelliere--wrapper img, .plan--wrapper .venus .joconde--wrapper img, .plan--wrapper .venus .venus--wrapper img, .plan--wrapper .venus .toutankhamon--wrapper img, .plan--wrapper .venus .liberte--wrapper img, .plan--wrapper .venus .scribe--wrapper img, .plan--wrapper .venus .dentelliere--wrapper img, .plan--wrapper .toutankhamon .joconde--wrapper img, .plan--wrapper .toutankhamon .venus--wrapper img, .plan--wrapper .toutankhamon .toutankhamon--wrapper img, .plan--wrapper .toutankhamon .liberte--wrapper img, .plan--wrapper .toutankhamon .scribe--wrapper img, .plan--wrapper .toutankhamon .dentelliere--wrapper img, .plan--wrapper .liberte .joconde--wrapper img, .plan--wrapper .liberte .venus--wrapper img, .plan--wrapper .liberte .toutankhamon--wrapper img, .plan--wrapper .liberte .liberte--wrapper img, .plan--wrapper .liberte .scribe--wrapper img, .plan--wrapper .liberte .dentelliere--wrapper img, .plan--wrapper .scribe .joconde--wrapper img, .plan--wrapper .scribe .venus--wrapper img, .plan--wrapper .scribe .toutankhamon--wrapper img, .plan--wrapper .scribe .liberte--wrapper img, .plan--wrapper .scribe .scribe--wrapper img, .plan--wrapper .scribe .dentelliere--wrapper img, .plan--wrapper .dentelliere .joconde--wrapper img, .plan--wrapper .dentelliere .venus--wrapper img, .plan--wrapper .dentelliere .toutankhamon--wrapper img, .plan--wrapper .dentelliere .liberte--wrapper img, .plan--wrapper .dentelliere .scribe--wrapper img, .plan--wrapper .dentelliere .dentelliere--wrapper img {
+      height: 250px;
+      width: auto;
+      position: absolute;
+      margin: 0 60px; }
+    .plan--wrapper .joconde .joconde--wrapper p, .plan--wrapper .joconde .venus--wrapper p, .plan--wrapper .joconde .toutankhamon--wrapper p, .plan--wrapper .joconde .liberte--wrapper p, .plan--wrapper .joconde .scribe--wrapper p, .plan--wrapper .joconde .dentelliere--wrapper p, .plan--wrapper .venus .joconde--wrapper p, .plan--wrapper .venus .venus--wrapper p, .plan--wrapper .venus .toutankhamon--wrapper p, .plan--wrapper .venus .liberte--wrapper p, .plan--wrapper .venus .scribe--wrapper p, .plan--wrapper .venus .dentelliere--wrapper p, .plan--wrapper .toutankhamon .joconde--wrapper p, .plan--wrapper .toutankhamon .venus--wrapper p, .plan--wrapper .toutankhamon .toutankhamon--wrapper p, .plan--wrapper .toutankhamon .liberte--wrapper p, .plan--wrapper .toutankhamon .scribe--wrapper p, .plan--wrapper .toutankhamon .dentelliere--wrapper p, .plan--wrapper .liberte .joconde--wrapper p, .plan--wrapper .liberte .venus--wrapper p, .plan--wrapper .liberte .toutankhamon--wrapper p, .plan--wrapper .liberte .liberte--wrapper p, .plan--wrapper .liberte .scribe--wrapper p, .plan--wrapper .liberte .dentelliere--wrapper p, .plan--wrapper .scribe .joconde--wrapper p, .plan--wrapper .scribe .venus--wrapper p, .plan--wrapper .scribe .toutankhamon--wrapper p, .plan--wrapper .scribe .liberte--wrapper p, .plan--wrapper .scribe .scribe--wrapper p, .plan--wrapper .scribe .dentelliere--wrapper p, .plan--wrapper .dentelliere .joconde--wrapper p, .plan--wrapper .dentelliere .venus--wrapper p, .plan--wrapper .dentelliere .toutankhamon--wrapper p, .plan--wrapper .dentelliere .liberte--wrapper p, .plan--wrapper .dentelliere .scribe--wrapper p, .plan--wrapper .dentelliere .dentelliere--wrapper p {
+      position: absolute;
+      color: #BFBFBF;
+      font-size: 19px;
+      width: 80vw;
+      margin: 300px 50px 0 50px;
+      text-align: justify; }
+  .plan--wrapper .liberte {
+    height: 80vh; }
+    .plan--wrapper .liberte .liberte--wrapper p {
+      position: absolute;
+      color: #BFBFBF;
+      font-size: 19px;
+      width: 80vw;
+      margin: 300px 50px 130px 50px;
+      text-align: justify; }
+  .plan--wrapper .scribe {
+    height: 60vh; }
+    .plan--wrapper .scribe .scribe--wrapper img {
+      height: 300px;
+      margin: 0 120px; }
+    .plan--wrapper .scribe .scribe--wrapper p {
+      padding-top: 50px; }
+  .plan--wrapper .dentelliere {
+    height: 65vh; }
+    .plan--wrapper .dentelliere .dentelliere--wrapper img {
+      height: 300px;
+      margin: 0 90px; }
+    .plan--wrapper .dentelliere .dentelliere--wrapper p {
+      padding-top: 50px; }
+  .plan--wrapper .venus {
+    height: 75vh; }
+    .plan--wrapper .venus .venus--wrapper img {
+      height: 300px;
+      margin: 0 140px; }
+    .plan--wrapper .venus .venus--wrapper p {
+      padding-top: 50px; }
+  .plan--wrapper .joconde {
+    height: 55vh; }
+    .plan--wrapper .joconde .joconde--wrapper img {
+      height: 300px;
+      margin: 0 70px; }
+    .plan--wrapper .joconde .joconde--wrapper p {
+      padding-top: 50px; }
+  .plan--wrapper .toutankhamon {
+    height: 60vh; }
+    .plan--wrapper .toutankhamon .toutankhamon--wrapper img {
+      height: 300px;
+      margin: 0 110px; }
+    .plan--wrapper .toutankhamon .toutankhamon--wrapper p {
+      padding-top: 50px; }
+  .plan--wrapper .oeuvreSlide {
+    position: absolute;
+    margin-top: 55%; }
+  .plan--wrapper .next {
+    right: 50px;
+    padding: 70px 0 50px; }
+  .plan--wrapper .prev {
+    left: 50px; }
+  .plan--wrapper .musees h3 {
+    font-family: "Questa Grande", serif;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: #BFBFBF;
+    margin-bottom: 30px;
+    padding-top: 80px; }
+  .plan--wrapper .musees--wraper .lens--wrapper img {
+    height: 85vh;
+    width: 100vw; }
+  .plan--wrapper .musees--wraper .lens--wrapper .lens--title {
+    position: absolute;
+    font-family: Avenir, sans-serif;
+    font-size: 50px;
+    color: #000;
+    left: 13%;
+    bottom: 30%; }
+  .plan--wrapper .musees--wraper .lens--wrapper:hover {
     cursor: pointer; }
-    .musees .musees--wraper .ad--wrapper:hover .ad--title {
+    .plan--wrapper .musees--wraper .lens--wrapper:hover .lens--title {
       transition: 0.5s;
       color: #fff;
       z-index: 2; }
-    .musees .musees--wraper .ad--wrapper:hover img {
+    .plan--wrapper .musees--wraper .lens--wrapper:hover img {
+      z-index: 1;
+      width: 60%;
+      transition: 0.5s;
+      filter: brightness(40%); }
+  .plan--wrapper .musees--wraper .ad--wrapper img {
+    height: 85vh;
+    width: 50%; }
+  .plan--wrapper .musees--wraper .ad--wrapper .ad--title {
+    position: absolute;
+    font-family: Avenir, sans-serif;
+    display: flex;
+    justify-content: left;
+    font-size: 50px;
+    color: #000;
+    right: 10%;
+    bottom: 30%; }
+  .plan--wrapper .musees--wraper .ad--wrapper .ad {
+    left: 100%; }
+  .plan--wrapper .musees--wraper .ad--wrapper:hover {
+    cursor: pointer; }
+    .plan--wrapper .musees--wraper .ad--wrapper:hover .ad--title {
+      transition: 0.5s;
+      color: #fff;
+      z-index: 2; }
+    .plan--wrapper .musees--wraper .ad--wrapper:hover img {
       transition: 0.5s;
       z-index: 1;
       width: 60%;
       filter: brightness(40%); }
-    .musees .musees--wraper .ad--wrapper:hover .ad {
+    .plan--wrapper .musees--wraper .ad--wrapper:hover .ad {
       left: 40%; } }
