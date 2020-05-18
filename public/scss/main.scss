@@ -947,9 +947,7 @@ body {
 }
 
 
-
-
-@media  (max-width: 1920px)  {
+@media (max-width: 1920px) {
   .oeuvre {
     .oeuvre--wrapper {
       .oeuvre--content--wrapper {
@@ -959,7 +957,7 @@ body {
   }
 }
 
-@media  (max-width: 1440px)  {
+@media (max-width: 1440px) {
   .oeuvre {
     .oeuvre--wrapper {
       .oeuvre--content--wrapper {
@@ -969,10 +967,10 @@ body {
   }
 }
 
-@media  (max-width: 440px)  {
+@media (max-width: 440px) {
   .oeuvre {
     .oeuvre--wrapper {
-      margin: 0px 20px;
+      margin: 0 20px;
       display: flex;
 
       h2 {
@@ -1032,4 +1030,163 @@ body {
       }
     }
   }
+
+  .joconde, .venus, .toutankhamon, .liberte, .scribe, .dentelliere {
+    h2 {
+      font-family: $fontAS;
+      font-size: 30px;
+      padding-top: 100px;
+    }
+
+    .joconde--wrapper, .venus--wrapper, .toutankhamon--wrapper, .liberte--wrapper, .scribe--wrapper, .dentelliere--wrapper {
+      margin-top: 8%;
+      display: block;
+      position: absolute;
+
+      img {
+        height: 250px;
+        width: auto;
+        position: absolute;
+        margin: 0 60px;
+      }
+
+      p {
+        position: absolute;
+        color: $txt-color;
+        font-size: 19px;
+        width: 80vw;
+        margin: 300px 50px 0 50px;
+        text-align: justify;
+
+      }
+    }
+  }
+
+  .liberte {
+    height: 80vh;
+
+    .liberte--wrapper {
+
+      p {
+        position: absolute;
+        color: $txt-color;
+        font-size: 19px;
+        width: 80vw;
+        margin: 300px 50px 130px 50px;
+        text-align: justify;
+      }
+    }
+  }
+
+  .scribe {
+    height: 60vh;
+
+    .scribe--wrapper {
+      img {
+        height: 300px;
+        margin: 0 120px;
+      }
+
+      p {
+        padding-top: 50px;
+
+      }
+    }
+  }
+
+  .dentelliere {
+    height: 65vh;
+
+    .dentelliere--wrapper {
+      img {
+        height: 300px;
+        margin: 0 90px;
+      }
+
+      p {
+        padding-top: 50px;
+
+      }
+    }
+  }
+
+  .venus {
+    height: 75vh;
+
+    .venus--wrapper {
+      img {
+        height: 300px;
+        margin: 0 140px;
+      }
+
+      p {
+        padding-top: 50px;
+
+      }
+    }
+  }
+
+  .joconde {
+    height: 55vh;
+
+    .joconde--wrapper {
+      img {
+        height: 300px;
+        margin: 0 70px;
+      }
+
+      p {
+        padding-top: 50px;
+
+      }
+    }
+  }
+
+  .toutankhamon {
+    height: 60vh;
+
+    .toutankhamon--wrapper {
+      img {
+        height: 300px;
+        margin: 0 110px;
+      }
+
+      p {
+        padding-top: 50px;
+
+      }
+    }
+  }
+
+
+  .oeuvreSlide {
+    position: absolute;
+    text-decoration: none;
+    color: $txt-color;
+    font-weight: bold;
+    font-size: 21px;
+    margin-top: 55%;
+  }
+
+  .next {
+    right: 50px;
+    padding: 70px 0 50px;
+
+    &:hover {
+      color: white;
+      transform: scale(1.1);
+      transition: 0.5s;
+    }
+  }
+
+  .prev {
+    left: 50px;
+
+    &:hover {
+      color: white;
+      transform: scale(1.1);
+      transition: 0.5s;
+    }
+  }
+
 }
