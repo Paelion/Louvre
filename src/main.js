@@ -96,12 +96,19 @@ function scrollAppear(){
   var pyramide=document.querySelector('.pyramide--plan');
   var carousel=document.querySelector('.carousel--plan');
   var plan=document.querySelector('.plan');
+
+
+
   var pyramidePosition=pyramide.getBoundingClientRect().top;
   var carouselPosition=carousel.getBoundingClientRect().top;
   var planPosition=plan.getBoundingClientRect().top;
+
+
+
   var screenPosition= window.innerHeight / 1.1;
   var screenPosition2= window.innerHeight / 1.1;
   var screenPosition3= window.innerHeight / 1.1;
+
 
   if(pyramidePosition < screenPosition){
     pyramide.classList.add('text-appear');
@@ -114,6 +121,7 @@ function scrollAppear(){
   if(planPosition < screenPosition3){
     plan.classList.add('text-appear');
   }
+
 
 }
 window.addEventListener('scroll', scrollAppear);
@@ -156,9 +164,11 @@ $('.video--txt').hide();
 $('.video--txt').delay(600).fadeIn(700);
 
 
+$('.lensPage').hide();
+$('.lensPage').delay(800).fadeIn(700);
 
-
-
+$('.adPage').hide();
+$('.adPage').delay(800).fadeIn(700);
 
 
 //// THREE /////

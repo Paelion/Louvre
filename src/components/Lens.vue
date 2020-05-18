@@ -15,6 +15,8 @@
         </div>
 
         <img src="../../public/img/louvreLens.png" alt="" class="lensMap">
+
+        <router-link :to="`/${$i18n.locale}/ad`" class="lensSlide next">{{ $t('lens.other') }}</router-link>
     </div>
 </template>
 

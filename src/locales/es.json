@@ -56,12 +56,14 @@
   "ad": {
     "titre": "Museo del Louvre de Abu Dhabi",
     "contenu": "El Louvre Abu Dhabi (en árabe: اللوفر أبو ظبي), o Louvre Abu Dhabi según la transcripción conservada por el museo en sus publicaciones oficiales en francés, es un museo fundado en 2017.\nInaugurado el 8 de noviembre de 2017 y abierto al público el 11 de noviembre, este museo, dependiente del museo del Louvre e instalado en una arquitectura confiada al arquitecto francés Jean Nouvel, fue creado después de un acuerdo intergubernamental firmado el 6 de marzo de 2007 entre Francia y el emirato de abu dhabi.",
-    "link": "Vea el sitio"
+    "link": "Vea el sitio",
+    "other": "Ver el museo de Lens"
   },
   "lens": {
     "titre": "Museo del Louvre de Lens",
     "contenu": "El Louvre-Lens es un establecimiento público de cooperación cultural de carácter administrativo fundado por el consejo regional de Nord-Pas-de-Calais, el departamento de Pas-de-Calais, la comunidad urbana de Lens-Liévin, la ciudad de Lente y el museo del Louvre. Este \"segundo Louvre\" se encuentra en Lens en Pas-de-Calais, su directora es Marie Lavandier; Es un establecimiento autónomo, vinculado al museo del Louvre de París mediante un acuerdo científico y cultural.",
-    "link": "Vea el sitio"
+    "link": "Vea el sitio",
+    "other": "Ver el museo de Abu Dhabi"
   },
   "audio": {
     "titre": "Guía de audio",
