@@ -816,4 +816,9 @@ body {
     .musees .musees--wraper .ad--wrapper:hover img {
       width: 100%; }
     .musees .musees--wraper .ad--wrapper:hover .ad {
-      left: 0; } }
+      left: 0; }
+  .audioguide h3 {
+    font-size: 40px; }
+  .audioguide .container--audioguide {
+    padding-top: 5vh;
+    transform: rotateX(0deg) rotateZ(0deg) rotateY(0deg) scale3d(1, 1, -0.9); } }
