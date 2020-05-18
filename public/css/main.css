@@ -872,4 +872,29 @@ body {
     font-size: 40px; }
   .audioguide .container--audioguide {
     padding-top: 5vh;
-    transform: rotateX(0deg) rotateZ(0deg) rotateY(0deg) scale3d(1, 1, -0.9); } }
+    transform: rotateX(0deg) rotateZ(0deg) rotateY(0deg) scale3d(1, 1, -0.9); }
+  .lensPage h3, .adPage h3 {
+    font-size: 35px;
+    padding-top: 100px; }
+  .lensPage .lens--txt, .lensPage .ad--txt, .adPage .lens--txt, .adPage .ad--txt {
+    display: block;
+    margin: 0 10% 80px; }
+    .lensPage .lens--txt .lens--img, .lensPage .lens--txt .ad--img, .lensPage .ad--txt .lens--img, .lensPage .ad--txt .ad--img, .adPage .lens--txt .lens--img, .adPage .lens--txt .ad--img, .adPage .ad--txt .lens--img, .adPage .ad--txt .ad--img {
+      height: 230px;
+      width: auto; }
+    .lensPage .lens--txt p, .lensPage .ad--txt p, .adPage .lens--txt p, .adPage .ad--txt p {
+      width: 100%; }
+    .lensPage .lens--txt .arrow, .lensPage .ad--txt .arrow, .adPage .lens--txt .arrow, .adPage .ad--txt .arrow {
+      top: 67%;
+      right: 25%; }
+  .lensPage .lensMap, .lensPage .adMap, .adPage .lensMap, .adPage .adMap {
+    height: 200px; }
+  .lensPage .next, .adPage .next {
+    bottom: 0;
+    padding-bottom: 50px;
+    padding-top: 50px; }
+  .lensPage .prev, .adPage .prev {
+    bottom: 0;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    left: 120px; } }

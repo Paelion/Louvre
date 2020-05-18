@@ -973,10 +973,11 @@ body {
 }
 
 @media (max-width: 440px) {
-  .plan--wrapper{
-    .parallax{
+  .plan--wrapper {
+    .parallax {
       display: none;
     }
+
     .plan {
       opacity: 0;
       height: 500px;
@@ -998,17 +999,17 @@ body {
       transform: translateY(0px);
     }
 
-    .h3pyra{
+    .h3pyra {
       font-size: 40px;
     }
 
-    .h3car{
+    .h3car {
       padding: 250px 10px 10px;
       margin-bottom: -20px;
       font-size: 40px;
     }
 
-    .h3plan{
+    .h3plan {
       margin-top: 390px;
       margin-bottom: -150px;
       font-size: 40px;
@@ -1037,7 +1038,7 @@ body {
       }
 
       .pcar {
-        margin-top:215px;
+        margin-top: 215px;
       }
 
       p {
@@ -1331,14 +1332,60 @@ body {
     }
   }
 
-  .audioguide{
-    h3{
-      font-size:40px;
+  .audioguide {
+    h3 {
+      font-size: 40px;
     }
-    .container--audioguide{
+
+    .container--audioguide {
       padding-top: 5vh;
       transform: rotateX(0deg) rotateZ(0deg) rotateY(0deg) scale3d(1, 1, -0.9);
     }
   }
+
+  .lensPage, .adPage {
+
+    h3 {
+      font-size: 35px;
+      padding-top: 100px;
+    }
+
+    .lens--txt, .ad--txt {
+      display: block;
+      margin: 0 10% 80px;
+
+      .lens--img, .ad--img {
+        height: 230px;
+        width: auto;
+      }
+
+      p {
+        width: 100%;
+      }
+
+      .arrow {
+        top: 67%;
+        right: 25%;
+      }
+    }
+
+    .lensMap, .adMap {
+      height: 200px;
+    }
+
+    .next {
+      bottom: 0;
+      padding-bottom: 50px;
+      padding-top: 50px;
+    }
+    .prev {
+      bottom: 0;
+      padding-bottom: 50px;
+      padding-top: 50px;
+      left: 120px;
+
+    }
+  }
+
 }
 
