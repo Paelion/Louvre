@@ -29,7 +29,9 @@
             <Langague/>
 
         </div>
-        <router-view/>
+        <transition name="router-anim">
+            <router-view/>
+        </transition>
     </div>
 </template>
 
