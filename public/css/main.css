@@ -305,7 +305,9 @@ body {
   font-size: 50px;
   color: #000;
   left: 13%;
+
   bottom: 30%; }
+
 
 .musees .musees--wraper .lens--wrapper:hover {
   cursor: pointer; }
@@ -332,6 +334,7 @@ body {
   font-size: 50px;
   color: #000;
   right: 10%;
+
   bottom: 30%; }
 
 .musees .musees--wraper .ad--wrapper .ad {
