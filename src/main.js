@@ -106,19 +106,17 @@ function scrollAppear(){
 
 
   var screenPosition= window.innerHeight / 1.1;
-  var screenPosition2= window.innerHeight / 1.1;
-  var screenPosition3= window.innerHeight / 1.1;
 
 
   if(pyramidePosition < screenPosition){
     pyramide.classList.add('text-appear');
   }
 
-  if(carouselPosition < screenPosition2){
+  if(carouselPosition < screenPosition){
     carousel.classList.add('text-appear');
   }
 
-  if(planPosition < screenPosition3){
+  if(planPosition < screenPosition){
     plan.classList.add('text-appear');
   }
 
@@ -1897,7 +1895,6 @@ renderer.setSize(window.innerWidth, window.innerHeight);
 
 
 document.getElementById('pyramide').appendChild(renderer.domElement);
-//document.body.appendChild(renderer.domElement);
 
 
 new THREE.OrbitControls(camera, renderer.domElement);
