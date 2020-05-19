@@ -106,19 +106,17 @@ function scrollAppear(){
 
 
   var screenPosition= window.innerHeight / 1.1;
-  var screenPosition2= window.innerHeight / 1.1;
-  var screenPosition3= window.innerHeight / 1.1;
 
 
   if(pyramidePosition < screenPosition){
     pyramide.classList.add('text-appear');
   }
 
-  if(carouselPosition < screenPosition2){
+  if(carouselPosition < screenPosition){
     carousel.classList.add('text-appear');
   }
 
-  if(planPosition < screenPosition3){
+  if(planPosition < screenPosition){
     plan.classList.add('text-appear');
   }
 
@@ -1897,7 +1895,6 @@ renderer.setSize(window.innerWidth, window.innerHeight);
 
 
 document.getElementById('pyramide').appendChild(renderer.domElement);
-//document.body.appendChild(renderer.domElement);
 
 
 new THREE.OrbitControls(camera, renderer.domElement);
@@ -1953,9 +1950,86 @@ animate();
 
 
 
+
+
+
+
+
+var scene2 = new THREE.Scene();
+scene2.background = new THREE.Color(0x131010);
+
+
+var camera2 = new THREE.PerspectiveCamera(45,
+    window.innerWidth / window.innerHeight,
+    0.1,
+    1000
+);
+var renderer2 = new THREE.WebGLRenderer();
+renderer2.setSize(window.innerWidth, window.innerHeight);
+
+
+document.getElementById('pyramideResponsive').appendChild(renderer2.domElement);
+//document.body.appendChild(renderer.domElement);
+
+
+new THREE.OrbitControls(camera2, renderer2.domElement);
+
+
+
+window.addEventListener('resize', function () {
+
+  var width = window.innerWidth;
+  var height = window.innerHeight;
+
+  renderer2.setSize(width, height);
+  camera2.aspect = width / height;
+  camera2.updateProjectionMatrix();
+
+});
+
+var geometry2 = new THREE.ConeBufferGeometry(1, 1, 4, 4,true );
+
+var material2 = new THREE.MeshBasicMaterial({color: 0xFFFFFF, wireframe: true});
+
+var cone2 = new THREE.Mesh(geometry2, material2);
+scene2.add(cone2);
+
+
+camera2.position.z = 9;
+
+
+var keyLight2 = new THREE.DirectionalLight(0xffffff, 1.0);
+keyLight2.position.set(-100, 0, 100);
+
+
+var fillLight2 = new THREE.DirectionalLight(0xffffff, .5);
+fillLight2.position.set(100, 0, 100);
+
+var backLight2 = new THREE.DirectionalLight(0xffffff, 1.0);
+backLight2.position.set(100, 0, -100).normalize();
+
+
+scene.add(keyLight2);
+scene.add(fillLight2);
+scene.add(backLight2);
+
+
+
+function animate2(){
+  requestAnimationFrame(animate2);
+
+  cone2.rotation.y += 0.005;
+}
+
+animate2();
+
+
+
 var render = function () {
   renderer.render(scene, camera);
+  renderer2.render(scene2, camera2);
 };
+
 
 var GameLoop = function () {
   requestAnimationFrame(GameLoop);
@@ -1963,6 +2037,7 @@ var GameLoop = function () {
 };
 
 GameLoop();  */
+
 
 
 

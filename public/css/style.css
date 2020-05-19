@@ -489,3 +489,35 @@ section img {
 }
 
 
+/****** ANIM ******/
+
+.router-anim-enter-active{
+    animation: coming 1s;
+    animation-delay: 0.5s;
+    opacity: 0;
+}
+
+.router-anim-leave-active{
+    animation: going 1s;
+}
+
+@keyframes going {
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+}
+
+@keyframes coming {
+    from{
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

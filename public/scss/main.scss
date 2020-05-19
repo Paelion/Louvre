@@ -102,6 +102,10 @@ body {
     padding-top: 60px;
   }
 
+  .pyramide--responsive--wrapper{
+    display: none;
+  }
+
   .txt1Home, .txt2Home {
     color: $txt-color;
     font-size: 20px;
@@ -226,6 +230,7 @@ body {
   .joconde--wrapper, .venus--wrapper, .toutankhamon--wrapper, .liberte--wrapper, .scribe--wrapper, .dentelliere--wrapper {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     margin-top: 8%;
 
     img {
@@ -538,6 +543,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     margin: 80px 0 100px 0;
+    height: 66.5vh;
 
     .lens--img {
       height: 350px;
@@ -555,8 +561,8 @@ body {
 
     .arrow {
       position: absolute;
-      top: 70%;
       right: 15%;
+      top: 70%;
 
       &:hover {
         transform: translateX(20px);
@@ -607,7 +613,7 @@ body {
 
   .next {
     right: 80px;
-    bottom: -75%;
+    bottom: -100%;
     padding-bottom: 50px;
 
     &:hover {
@@ -636,6 +642,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     margin: 80px 0 100px 0;
+    height: 66.5vh;
 
     .ad--img {
       height: 350px;
@@ -704,7 +711,7 @@ body {
 
   .prev {
     left: 80px;
-    bottom: -75%;
+    bottom: -100%;
     padding-bottom: 50px;
 
     &:hover {
@@ -750,7 +757,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     margin: 80px 0 100px 0;
-
+    height: 66.5vh;
     .audio--wrapper {
       display: block;
       width: 40%;
@@ -818,6 +825,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     margin: 80px 0 100px 0;
+    height: 66.5vh;
 
     .video--wrapper {
       display: block;
@@ -898,6 +906,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     margin: 80px 0 100px 0;
+    height: 66.5vh;
 
     .appli--wrapper {
       display: block;
@@ -973,16 +982,17 @@ body {
 }
 
 @media (max-width: 440px) {
-  .plan--wrapper{
-    .parallax{
+  .plan--wrapper {
+    .parallax {
       display: none;
     }
+
     .plan {
       opacity: 0;
       height: 500px;
-      width: 100%;
+      width: 80%;
       filter: grayscale(100%);
-      margin-left: -5px;
+      margin-left: 50px;
       transition: 1s all ease-in-out;
     }
 
@@ -998,29 +1008,55 @@ body {
       transform: translateY(0px);
     }
 
+    .h3pyra {
+      font-size: 40px;
+    }
+
+    .h3car {
+      padding: 250px 10px 10px;
+      margin-bottom: -20px;
+      font-size: 40px;
+    }
+
+    .h3plan {
+      margin-top: 390px;
+      margin-bottom: -150px;
+      font-size: 40px;
+    }
+
+
     .plan--txt {
       display: block;
       justify-content: space-evenly;
       align-items: center;
-      margin: 80px 0 100px 0;
+
 
       .pyra {
-        height: 300px;
-        width: 100%;
+        margin-top: -35px;
+        margin-left: 50px;
+        height: 200px;
+        width: 80%;
         filter: grayscale(100%);
       }
 
       .carousel {
-        height: 300px;
-        width: 100%;
+        margin-left: 50px;
+        height: 200px;
+        width: 80%;
         filter: grayscale(100%);
       }
 
+      .pcar {
+        margin-top: 215px;
+      }
+
       p {
-        width: 100%;
+        position: absolute;
         color: $txt-color;
-        font-size: 20px;
-        text-align: center;
+        font-size: 19px;
+        width: 80vw;
+        margin: 10px 50px 0 50px;
+        text-align: justify;
       }
     }
   }
@@ -1304,5 +1340,187 @@ body {
 
     }
   }
+
+  .audioguide {
+    h3 {
+      font-size: 40px;
+    }
+
+    .container--audioguide {
+      padding-top: 5vh;
+      transform: rotateX(0deg) rotateZ(0deg) rotateY(0deg) scale3d(1, 1, -0.9);
+    }
+
+
+  }
+
+  .lensPage, .adPage {
+
+    h3 {
+      font-size: 35px;
+      padding-top: 100px;
+    }
+
+    .lens--txt, .ad--txt {
+      display: block;
+      margin: 0 10% 80px;
+
+      .lens--img, .ad--img {
+        height: 230px;
+        width: auto;
+      }
+
+      p {
+        width: 100%;
+      }
+
+      .arrow {
+        top: 67%;
+        right: 25%;
+      }
+    }
+
+    .lensMap, .adMap {
+      height: 200px;
+    }
+
+    .next {
+      bottom: 0;
+      padding-bottom: 50px;
+      padding-top: 50px;
+    }
+    .prev {
+      bottom: 0;
+      padding-bottom: 50px;
+      padding-top: 50px;
+      left: 120px;
+
+    }
+  }
+  .home{
+    .homeTop{
+      .titleHome{
+        padding-top: 50px;
+        font-size: 50px;
+      }
+    }
+    .pyramide--responsive--wrapper{
+      display: block;
+    }
+    .pyramide--wrapper{
+      display: none;
+    }
+  }
+
+  .audioPage, .videoPage, .appliPage {
+
+    h3 {
+      font-size: 35px;
+      padding-top: 100px;
+    }
+
+    .audio--txt {
+
+      .audio--wrapper{
+        display: block;
+        width: 85%;
+        padding: 50px 0 50px 50px;
+
+        p {
+          width: 80%;
+          position: absolute;
+          top: 40%;
+        }
+
+        h4 {
+          position: absolute;
+          top: 63%;
+        }
+      }
+      .audio--img {
+        position: absolute;
+        height: 300px;
+        margin-top: -20%;
+      }
+    }
+    .next {
+      right: 150px;
+      bottom: 30px;
+      padding: 70px 0 50px;
+    }
+
+    .video--txt {
+
+      .video--wrapper{
+        display: block;
+        width: 85%;
+        padding: 50px 0 50px 50px;
+
+        p {
+          width: 80%;
+          position: absolute;
+          top: 40%;
+        }
+
+        h4 {
+          position: absolute;
+          top: 63%;
+        }
+      }
+      .video--img{
+        position: absolute;
+        height: 300px;
+        margin-top: -20%;
+      }
+    }
+    .next {
+      right: 50px;
+      bottom: 30px;
+      padding: 70px 0 50px;
+    }
+    .prev {
+      left: 50px;
+      bottom: 30px;
+      padding: 70px 0 50px;
+    }
+
+    .appli--txt {
+
+      .appli--wrapper{
+        display: block;
+        width: 85%;
+        padding: 50px 0 50px 50px;
+
+        p {
+          width: 80%;
+          position: absolute;
+          top: 40%;
+        }
+
+        h4 {
+          position: absolute;
+          top: 63%;
+        }
+      }
+      .appli--img {
+        position: absolute;
+        height: 300px;
+        margin-top: -20%;
+      }
+    }
+    .next {
+      right: 50px;
+      bottom: 30px;
+      padding: 70px 0 50px;
+    }
+    .prev {
+      left: 50px;
+      bottom: 30px;
+      padding: 70px 0 50px;
+    }
+  }
+
+
+
 }
 
