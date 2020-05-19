@@ -230,6 +230,7 @@ body {
   .joconde--wrapper, .venus--wrapper, .toutankhamon--wrapper, .liberte--wrapper, .scribe--wrapper, .dentelliere--wrapper {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     margin-top: 8%;
 
     img {
