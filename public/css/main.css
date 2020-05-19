@@ -305,73 +305,7 @@ body {
   font-size: 50px;
   color: #000;
   left: 13%;
-  bottom: 30%;
-    animation: fadeIn ease 3s;
-    -webkit-animation: fadeIn ease 3s;
-    -moz-animation: fadeIn ease 3s;
-    -o-animation: fadeIn ease 3s;
-    -ms-animation: fadeIn ease 3s;
-}
-
-@keyframes fadeIn {
-    0% {
-        opacity:0;
-    }
-    75% {
-        opacity:0;
-    }
-    100% {
-        opacity:1;
-    }
-}
-@-moz-keyframes fadeIn {
-    0% {
-        opacity:1;
-    }
-    75% {
-        opacity:0;
-    }
-    100% {
-        opacity:0;
-    }
-}
-
-@-webkit-keyframes fadeIn {
-    0% {
-        opacity:1;
-    }
-    75% {
-        opacity:0;
-    }
-    100% {
-        opacity:0;
-    }
-}
-
-@-o-keyframes fadeIn{
-    0% {
-        opacity:1;
-    }
-    75% {
-        opacity:0;
-    }
-    100% {
-        opacity:0;
-    }
-}
-
-@-ms-keyframes fadeIn {
-    0% {
-        opacity:1;
-    }
-    75% {
-        opacity:0;
-    }
-    100% {
-        opacity:0;
-    }
-}
-
+  bottom: 30%; }
 
 .musees .musees--wraper .lens--wrapper:hover {
   cursor: pointer; }
@@ -398,72 +332,7 @@ body {
   font-size: 50px;
   color: #000;
   right: 10%;
-  bottom: 30%;
-    animation: fadeIn ease 3s;
-    -webkit-animation: fadeIn ease 3s;
-    -moz-animation: fadeIn ease 3s;
-    -o-animation: fadeIn ease 3s;
-    -ms-animation: fadeIn ease 3s;
-}
-
-@keyframes fadeIn {
-    0% {
-        opacity:0;
-    }
-    75% {
-        opacity:0;
-    }
-    100% {
-        opacity:1;
-    }
-}
-@-moz-keyframes fadeIn {
-    0% {
-        opacity:1;
-    }
-    75% {
-        opacity:0;
-    }
-    100% {
-        opacity:0;
-    }
-}
-
-@-webkit-keyframes fadeIn {
-    0% {
-        opacity:1;
-    }
-    75% {
-        opacity:0;
-    }
-    100% {
-        opacity:0;
-    }
-}
-
-@-o-keyframes fadeIn{
-    0% {
-        opacity:1;
-    }
-    75% {
-        opacity:0;
-    }
-    100% {
-        opacity:0;
-    }
-}
-
-@-ms-keyframes fadeIn {
-    0% {
-        opacity:1;
-    }
-    75% {
-        opacity:0;
-    }
-    100% {
-        opacity:0;
-    }
-}
+  bottom: 30%; }
 
 .musees .musees--wraper .ad--wrapper .ad {
   left: 50%; }
@@ -494,7 +363,7 @@ body {
   padding-top: 80px;
   display: flex;
   justify-content: space-evenly;
-  margin: 80px 0 100px 0;
+  margin: 80px 0 0 0;
   height: 66.5vh; }
   .lensPage .lens--txt .lens--img {
     height: 350px;
@@ -565,7 +434,7 @@ body {
   padding-top: 80px;
   display: flex;
   justify-content: space-evenly;
-  margin: 80px 0 100px 0;
+  margin: 80px 0 0 0;
   height: 66.5vh; }
   .adPage .ad--txt .ad--img {
     height: 350px;
