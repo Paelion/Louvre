@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
-// import * as THREE from "../public/three/three";
+import * as THREE from "../public/three/three";
 import router from './router';
 import i18n from './i18n'
 import $ from '../jquery'
@@ -171,7 +171,7 @@ $('.adPage').delay(800).fadeIn(700);
 
 //// THREE /////
 
-/*
+
 THREE.OBJLoader = function ( manager ) {
 
   this.manager = ( manager !== undefined ) ? manager : THREE.DefaultLoadingManager;
@@ -1325,11 +1325,11 @@ THREE.OrbitControls = function ( object, domElement ) {
 
   }
 
-  function handleMouseUp( /*event */ /* ) {
+  function handleMouseUp( /*event */  ) {
 
     //// console.log( 'handleMouseUp' );
 
-  /* } /*
+   }
 
   function handleMouseWheel( event ) {
 
@@ -1474,7 +1474,7 @@ THREE.OrbitControls = function ( object, domElement ) {
 
   }
 
-  function handleTouchEnd( /*event//) {
+  function handleTouchEnd( event ) {
 
     ////console.log( 'handleTouchEnd' );
 
@@ -1483,7 +1483,7 @@ THREE.OrbitControls = function ( object, domElement ) {
   //
   // event handlers - FSM: listen for events and reset state
   //
-/*
+
   function onMouseDown( event ) {
 
     if ( scope.enabled === false ) return;
@@ -1849,7 +1849,7 @@ Object.defineProperties( THREE.OrbitControls.prototype, {
 
   }
 
-} ); */
+} );
 
 
 
@@ -1877,7 +1877,7 @@ Object.defineProperties( THREE.OrbitControls.prototype, {
 
 
 
-/*
+
 
 
 
@@ -2036,7 +2036,7 @@ var GameLoop = function () {
   render();
 };
 
-GameLoop();  */
+GameLoop();
 
 
 
