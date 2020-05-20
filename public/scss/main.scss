@@ -1154,7 +1154,7 @@ body {
   }
 
   .liberte {
-    height: 80vh;
+    height: 92vh;
 
     .liberte--wrapper {
 
@@ -1170,7 +1170,7 @@ body {
   }
 
   .scribe {
-    height: 60vh;
+    height: 70vh;
 
     .scribe--wrapper {
       img {
@@ -1186,7 +1186,7 @@ body {
   }
 
   .dentelliere {
-    height: 65vh;
+    height: 75vh;
 
     .dentelliere--wrapper {
       img {
@@ -1202,7 +1202,7 @@ body {
   }
 
   .venus {
-    height: 75vh;
+    height: 85vh;
 
     .venus--wrapper {
       img {
@@ -1218,7 +1218,7 @@ body {
   }
 
   .joconde {
-    height: 55vh;
+    height: 60vh;
 
     .joconde--wrapper {
       img {
@@ -1234,7 +1234,7 @@ body {
   }
 
   .toutankhamon {
-    height: 60vh;
+    height: 68vh;
 
     .toutankhamon--wrapper {
       img {
@@ -1362,7 +1362,7 @@ body {
 
     .lens--txt, .ad--txt {
       display: block;
-      margin: 0 10% 80px;
+      margin: 0 10% 0;
 
       .lens--img, .ad--img {
         height: 230px;
@@ -1374,7 +1374,7 @@ body {
       }
 
       .arrow {
-        top: 67%;
+        top: 78%;
         right: 25%;
       }
     }
@@ -1384,12 +1384,12 @@ body {
     }
 
     .next {
-      bottom: 0;
+      bottom: -250px;
       padding-bottom: 50px;
       padding-top: 50px;
     }
     .prev {
-      bottom: 0;
+      bottom: -250px;
       padding-bottom: 50px;
       padding-top: 50px;
       left: 120px;
@@ -1428,12 +1428,12 @@ body {
         p {
           width: 80%;
           position: absolute;
-          top: 40%;
+          top: 50%;
         }
 
         h4 {
           position: absolute;
-          top: 63%;
+          top: 75%;
         }
       }
       .audio--img {
@@ -1458,12 +1458,12 @@ body {
         p {
           width: 80%;
           position: absolute;
-          top: 40%;
+          top: 50%;
         }
 
         h4 {
           position: absolute;
-          top: 63%;
+          top: 75%;
         }
       }
       .video--img{
@@ -1493,12 +1493,12 @@ body {
         p {
           width: 80%;
           position: absolute;
-          top: 40%;
+          top: 50%;
         }
 
         h4 {
           position: absolute;
-          top: 63%;
+          top: 68%;
         }
       }
       .appli--img {

@@ -305,9 +305,7 @@ body {
   font-size: 50px;
   color: #000;
   left: 13%;
-
   bottom: 30%; }
-
 
 .musees .musees--wraper .lens--wrapper:hover {
   cursor: pointer; }
@@ -334,7 +332,6 @@ body {
   font-size: 50px;
   color: #000;
   right: 10%;
-
   bottom: 30%; }
 
 .musees .musees--wraper .ad--wrapper .ad {
@@ -787,7 +784,7 @@ body {
       margin: 300px 50px 0 50px;
       text-align: justify; }
   .liberte {
-    height: 80vh; }
+    height: 92vh; }
     .liberte .liberte--wrapper p {
       position: absolute;
       color: #BFBFBF;
@@ -796,35 +793,35 @@ body {
       margin: 300px 50px 130px 50px;
       text-align: justify; }
   .scribe {
-    height: 60vh; }
+    height: 70vh; }
     .scribe .scribe--wrapper img {
       height: 300px;
       margin: 0 120px; }
     .scribe .scribe--wrapper p {
       padding-top: 50px; }
   .dentelliere {
-    height: 65vh; }
+    height: 75vh; }
     .dentelliere .dentelliere--wrapper img {
       height: 300px;
       margin: 0 90px; }
     .dentelliere .dentelliere--wrapper p {
       padding-top: 50px; }
   .venus {
-    height: 75vh; }
+    height: 85vh; }
     .venus .venus--wrapper img {
       height: 300px;
       margin: 0 140px; }
     .venus .venus--wrapper p {
       padding-top: 50px; }
   .joconde {
-    height: 55vh; }
+    height: 60vh; }
     .joconde .joconde--wrapper img {
       height: 300px;
       margin: 0 70px; }
     .joconde .joconde--wrapper p {
       padding-top: 50px; }
   .toutankhamon {
-    height: 60vh; }
+    height: 68vh; }
     .toutankhamon .toutankhamon--wrapper img {
       height: 300px;
       margin: 0 110px; }
@@ -889,23 +886,23 @@ body {
     padding-top: 100px; }
   .lensPage .lens--txt, .lensPage .ad--txt, .adPage .lens--txt, .adPage .ad--txt {
     display: block;
-    margin: 0 10% 80px; }
+    margin: 0 10% 0; }
     .lensPage .lens--txt .lens--img, .lensPage .lens--txt .ad--img, .lensPage .ad--txt .lens--img, .lensPage .ad--txt .ad--img, .adPage .lens--txt .lens--img, .adPage .lens--txt .ad--img, .adPage .ad--txt .lens--img, .adPage .ad--txt .ad--img {
       height: 230px;
       width: auto; }
     .lensPage .lens--txt p, .lensPage .ad--txt p, .adPage .lens--txt p, .adPage .ad--txt p {
       width: 100%; }
     .lensPage .lens--txt .arrow, .lensPage .ad--txt .arrow, .adPage .lens--txt .arrow, .adPage .ad--txt .arrow {
-      top: 67%;
+      top: 78%;
       right: 25%; }
   .lensPage .lensMap, .lensPage .adMap, .adPage .lensMap, .adPage .adMap {
     height: 200px; }
   .lensPage .next, .adPage .next {
-    bottom: 0;
+    bottom: -250px;
     padding-bottom: 50px;
     padding-top: 50px; }
   .lensPage .prev, .adPage .prev {
-    bottom: 0;
+    bottom: -250px;
     padding-bottom: 50px;
     padding-top: 50px;
     left: 120px; }
@@ -926,10 +923,10 @@ body {
     .audioPage .audio--txt .audio--wrapper p, .videoPage .audio--txt .audio--wrapper p, .appliPage .audio--txt .audio--wrapper p {
       width: 80%;
       position: absolute;
-      top: 40%; }
+      top: 50%; }
     .audioPage .audio--txt .audio--wrapper h4, .videoPage .audio--txt .audio--wrapper h4, .appliPage .audio--txt .audio--wrapper h4 {
       position: absolute;
-      top: 63%; }
+      top: 75%; }
   .audioPage .audio--txt .audio--img, .videoPage .audio--txt .audio--img, .appliPage .audio--txt .audio--img {
     position: absolute;
     height: 300px;
@@ -945,10 +942,10 @@ body {
     .audioPage .video--txt .video--wrapper p, .videoPage .video--txt .video--wrapper p, .appliPage .video--txt .video--wrapper p {
       width: 80%;
       position: absolute;
-      top: 40%; }
+      top: 50%; }
     .audioPage .video--txt .video--wrapper h4, .videoPage .video--txt .video--wrapper h4, .appliPage .video--txt .video--wrapper h4 {
       position: absolute;
-      top: 63%; }
+      top: 75%; }
   .audioPage .video--txt .video--img, .videoPage .video--txt .video--img, .appliPage .video--txt .video--img {
     position: absolute;
     height: 300px;
@@ -968,10 +965,10 @@ body {
     .audioPage .appli--txt .appli--wrapper p, .videoPage .appli--txt .appli--wrapper p, .appliPage .appli--txt .appli--wrapper p {
       width: 80%;
       position: absolute;
-      top: 40%; }
+      top: 50%; }
     .audioPage .appli--txt .appli--wrapper h4, .videoPage .appli--txt .appli--wrapper h4, .appliPage .appli--txt .appli--wrapper h4 {
       position: absolute;
-      top: 63%; }
+      top: 68%; }
   .audioPage .appli--txt .appli--img, .videoPage .appli--txt .appli--img, .appliPage .appli--txt .appli--img {
     position: absolute;
     height: 300px;
