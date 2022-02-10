@@ -15,7 +15,7 @@
     "eslint-config-mdcs": "^4.2.3",
     "eslint-loader": "^2.1.2",
     "eslint-plugin-local": "^1.0.0",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "vue": "^2.6.11",
     "vue-clickaway": "^2.2.2",
     "vue-i18n": "^8.17.4",
